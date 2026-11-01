@@ -1,0 +1,317 @@
+net_2543
+  <- u_233.X sky130_fd_sc_hd__a32o_2
+     A1:
+       net_1361
+         <- u_5532.Y sky130_fd_sc_hd__inv_2
+            A:
+              register_17 (net_1360)
+                <- register_17 / u_5337.Q
+     A2:
+       net_2487
+         <- u_460.X sky130_fd_sc_hd__and2_2
+            A:
+              net_855
+                <- u_5836.Y sky130_fd_sc_hd__inv_2
+                   A:
+                     register_06[1] (net_828)
+                       <- register_06[1] / u_5638.Q
+            B:
+              net_367
+                <- u_6298.X sky130_fd_sc_hd__and4_2
+                   A:
+                     register_07[2] (net_338)
+                       <- register_07[2] / u_6109.Q
+                   B:
+                     register_07[1] (net_342)
+                       <- register_07[1] / u_6106.Q
+                   C:
+                     register_07[6] (net_339)
+                       <- register_07[6] / u_6198.Q
+                   D:
+                     net_340
+                       <- u_5616.Y sky130_fd_sc_hd__nor3_2
+                          A:
+                            register_07[5] (net_415)
+                              <- register_07[5] / u_6197.Q
+                          B:
+                            register_07[7] (net_484)
+                              <- register_07[7] / u_6199.Q
+                          C:
+                            net_480
+                              <- u_5612.X sky130_fd_sc_hd__or3_2
+                                 A:
+                                   register_07[3] (net_603)
+                                     <- register_07[3] / u_6111.Q
+                                 B:
+                                   register_07[0] (net_433)
+                                     <- register_07[0] / u_6095.Q
+                                 C:
+                                   register_07[4] (net_534)
+                                     <- register_07[4] / u_6159.Q
+     A3:
+       net_2542
+         <- u_450.X sky130_fd_sc_hd__and4b_2
+            A_N:
+              register_09[0] (net_2329)
+                <- register_09[0] / u_226.Q
+            B:
+              register_16 (net_1968)
+                <- register_16 / u_4182.Q
+            C:
+              net_164
+                <- u_6802.X sky130_fd_sc_hd__and3_2
+                   A:
+                     net_126
+                       <- u_6806.X sky130_fd_sc_hd__and4_2
+                          A:
+                            net_105
+                              <- u_8325.X sky130_fd_sc_hd__and2b_2
+                                 A_N:
+                                   register_10[6] (net_796)
+                                     <- register_10[6] / u_8214.Q
+                                 B:
+                                   register_10[3] (net_942)
+                                     <- register_10[3] / u_8090.Q
+                          B:
+                            net_127
+                              <- u_8367.X sky130_fd_sc_hd__and2_2
+                                 A:
+                                   register_10[1] (net_837)
+                                     <- register_10[1] / u_8085.Q
+                                 B:
+                                   net_938
+                                     <- u_8290.Y sky130_fd_sc_hd__inv_2
+                                        A:
+                                          register_10[5] (net_839)
+                                            <- register_10[5] / u_8199.Q
+                          C:
+                            net_104
+                              <- u_2843.X sky130_fd_sc_hd__and2b_2
+                                 A_N:
+                                   register_10[0] (net_1129)
+                                     <- register_10[0] / u_2709.Q
+                                 B:
+                                   register_10[4] (net_1110)
+                                     <- register_10[4] / u_8091.Q
+                          D:
+                            net_102
+                              <- u_8218.X sky130_fd_sc_hd__and2b_2
+                                 A_N:
+                                   register_10[7] (net_1031)
+                                     <- register_10[7] / u_8219.Q
+                                 B:
+                                   register_10[2] (net_1012)
+                                     <- register_10[2] / u_8086.Q
+                   B:
+                     net_165
+                       <- u_6822.X sky130_fd_sc_hd__and4_2
+                          A:
+                            net_168
+                              <- u_8575.X sky130_fd_sc_hd__and2_2
+                                 A:
+                                   register_11[5] (net_636)
+                                     <- register_11[5] / u_8591.Q
+                                 B:
+                                   net_635
+                                     <- u_8660.Y sky130_fd_sc_hd__inv_2
+                                        A:
+                                          register_11[6] (net_658)
+                                            <- register_11[6] / u_8602.Q
+                          B:
+                            net_195
+                              <- u_8590.X sky130_fd_sc_hd__and2b_2
+                                 A_N:
+                                   register_11[7] (net_582)
+                                     <- register_11[7] / u_8815.Q
+                                 B:
+                                   register_11[0] (net_492)
+                                     <- register_11[0] / u_8084.Q
+                          C:
+                            net_194
+                              <- u_8408.X sky130_fd_sc_hd__and2b_2
+                                 A_N:
+                                   register_11[2] (net_707)
+                                     <- register_11[2] / u_8095.Q
+                                 B:
+                                   register_11[3] (net_717)
+                                     <- register_11[3] / u_8429.Q
+                          D:
+                            net_193
+                              <- u_8197.X sky130_fd_sc_hd__and2_2
+                                 A:
+                                   register_11[4] (net_698)
+                                     <- register_11[4] / u_8431.Q
+                                 B:
+                                   net_699
+                                     <- u_8106.Y sky130_fd_sc_hd__inv_2
+                                        A:
+                                          register_11[1] (net_657)
+                                            <- register_11[1] / u_8092.Q
+                   C:
+                     net_192
+                       <- u_6809.X sky130_fd_sc_hd__and3_2
+                          A:
+                            net_163
+                              <- u_2555.X sky130_fd_sc_hd__and2b_2
+                                 A_N:
+                                   register_08[2] (net_1187)
+                                     <- register_08[2] / u_2542.Q
+                                 B:
+                                   register_08[0] (net_1193)
+                                     <- register_08[0] / u_2299.Q
+                          B:
+                            net_160
+                              <- u_2561.X sky130_fd_sc_hd__and2_2
+                                 A:
+                                   register_08[5] (net_1164)
+                                     <- register_08[5] / u_2710.Q
+                                 B:
+                                   net_1163
+                                     <- u_2711.Y sky130_fd_sc_hd__inv_2
+                                        A:
+                                          register_08[4] (net_1165)
+                                            <- register_08[4] / u_2708.Q
+                          C:
+                            net_161
+                              <- u_2571.X sky130_fd_sc_hd__and2b_2
+                                 A_N:
+                                   register_08[3] (net_1325)
+                                     <- register_08[3] / u_2574.Q
+                                 B:
+                                   register_08[1] (net_1379)
+                                     <- register_08[1] / u_2301.Q
+            D:
+              net_1573
+                <- u_5013.X sky130_fd_sc_hd__and3_2
+                   A:
+                     net_1506
+                       <- u_5225.X sky130_fd_sc_hd__and4_2
+                          A:
+                            net_1510
+                              <- u_1775.X sky130_fd_sc_hd__and2b_2
+                                 A_N:
+                                   register_14[0] (net_2276)
+                                     <- register_14[0] / u_1228.Q
+                                 B:
+                                   register_14[4] (net_2273)
+                                     <- register_14[4] / u_1808.Q
+                          B:
+                            net_1504
+                              <- u_1776.X sky130_fd_sc_hd__and2_2
+                                 A:
+                                   register_15[0] (net_2226)
+                                     <- register_15[0] / u_1229.Q
+                                 B:
+                                   net_2261
+                                     <- u_1968.Y sky130_fd_sc_hd__inv_2
+                                        A:
+                                          register_15[4] (net_2241)
+                                            <- register_15[4] / u_1809.Q
+                          C:
+                            net_1509
+                              <- u_1376.X sky130_fd_sc_hd__and2b_2
+                                 A_N:
+                                   register_14[2] (net_2443)
+                                     <- register_14[2] / u_1258.Q
+                                 B:
+                                   register_14[3] (net_2442)
+                                     <- register_14[3] / u_1626.Q
+                          D:
+                            net_1507
+                              <- u_1630.X sky130_fd_sc_hd__and2b_2
+                                 A_N:
+                                   register_14[1] (net_2347)
+                                     <- register_14[1] / u_1230.Q
+                                 B:
+                                   register_14[5] (net_2346)
+                                     <- register_14[5] / u_1810.Q
+                   B:
+                     net_1539
+                       <- u_5010.X sky130_fd_sc_hd__and4_2
+                          A:
+                            net_1543
+                              <- u_1982.X sky130_fd_sc_hd__and2_2
+                                 A:
+                                   register_15[7] (net_1998)
+                                     <- register_15[7] / u_2039.Q
+                                 B:
+                                   net_2008
+                                     <- u_2013.Y sky130_fd_sc_hd__inv_2
+                                        A:
+                                          register_15[2] (net_1996)
+                                            <- register_15[2] / u_1250.Q
+                          B:
+                            net_1542
+                              <- u_2364.X sky130_fd_sc_hd__and2b_2
+                                 A_N:
+                                   register_05[0] (net_1805)
+                                     <- register_05[0] / u_2293.Q
+                                 B:
+                                   register_05[1] (net_1797)
+                                     <- register_05[1] / u_2372.Q
+                          C:
+                            net_1541
+                              <- u_2107.X sky130_fd_sc_hd__and2b_2
+                                 A_N:
+                                   register_15[3] (net_2157)
+                                     <- register_15[3] / u_1264.Q
+                                 B:
+                                   register_15[5] (net_2155)
+                                     <- register_15[5] / u_2036.Q
+                          D:
+                            net_1538
+                              <- u_1794.X sky130_fd_sc_hd__and2_2
+                                 A:
+                                   register_15[1] (net_2101)
+                                     <- register_15[1] / u_1249.Q
+                                 B:
+                                   net_2129
+                                     <- u_2012.Y sky130_fd_sc_hd__inv_2
+                                        A:
+                                          register_15[6] (net_2069)
+                                            <- register_15[6] / u_2037.Q
+                   C:
+                     net_1500
+                       <- u_5230.X sky130_fd_sc_hd__and3_2
+                          A:
+                            net_1505
+                              <- u_1262.X sky130_fd_sc_hd__and2b_2
+                                 A_N:
+                                   register_13[0] (net_2532)
+                                     <- register_13[0] / u_1259.Q
+                                 B:
+                                   register_13[3] (net_2493)
+                                     <- register_13[3] / u_1383.Q
+                          B:
+                            net_1502
+                              <- u_1560.X sky130_fd_sc_hd__and2_2
+                                 A:
+                                   register_13[4] (net_2511)
+                                     <- register_13[4] / u_1384.Q
+                                 B:
+                                   net_2490
+                                     <- u_1425.Y sky130_fd_sc_hd__inv_2
+                                        A:
+                                          register_13[2] (net_2512)
+                                            <- register_13[2] / u_1261.Q
+                          C:
+                            net_1501
+                              <- u_1591.X sky130_fd_sc_hd__and2b_2
+                                 A_N:
+                                   register_13[1] (net_2581)
+                                     <- register_13[1] / u_1260.Q
+                                 B:
+                                   register_13[5] (net_2579)
+                                     <- register_13[5] / u_1385.Q
+     B1:
+       success (net_2380)
+         <- register_09[2] / u_228.Q
+     B2:
+       net_2520
+         <- u_406.Y sky130_fd_sc_hd__nand2b_2
+            A_N:
+              register_09[0] (net_2329)
+                <shared DAG node>
+            B:
+              register_16 (net_1968)
+                <shared DAG node>

@@ -1,0 +1,1220 @@
+net_1131
+  <- u_2707.X sky130_fd_sc_hd__and4b_2
+     A_N:
+       net_584
+         <- u_6978.X sky130_fd_sc_hd__o211a_2
+            A1:
+              net_400
+                <- u_6983.X sky130_fd_sc_hd__xor2_2
+                   A:
+                     net_416
+                       <- u_7414.Y sky130_fd_sc_hd__a21oi_2
+                          A1:
+                            net_279
+                              <- u_7376.X sky130_fd_sc_hd__a21o_2
+                                 A1:
+                                   net_237
+                                     <- u_6952.X sky130_fd_sc_hd__a21o_2
+                                        A1:
+                                          net_138
+                                            <- u_9355.X sky130_fd_sc_hd__a32o_2
+                                               A1:
+                                                 register_03[3] (net_114)
+                                                   <- register_03[3] / u_4838.Q
+                                               A2:
+                                                 net_9
+                                                   <- u_9354.X sky130_fd_sc_hd__xor2_2
+                                                      A:
+                                                        register_04[2] (net_171)
+                                                          <- register_04[2] / u_6442.Q
+                                                      B:
+                                                        register_04[3] (net_205)
+                                                          <- register_04[3] / u_6451.Q
+                                               A3:
+                                                 net_141
+                                                   <- u_9353.X sky130_fd_sc_hd__xor2_2
+                                                      A:
+                                                        register_03[0] (net_1001)
+                                                          <- register_03[0] / u_4659.Q
+                                                      B:
+                                                        net_178
+                                                          <- u_6955.Y sky130_fd_sc_hd__a21oi_2
+                                                             A1:
+                                                               register_04[3] (net_205)
+                                                                 <shared DAG node>
+                                                             A2:
+                                                               net_236
+                                                                 <- u_6950.X sky130_fd_sc_hd__xor2_2
+                                                                    A:
+                                                                      register_04[2] (net_171)
+                                                                        <shared DAG node>
+                                                                    B:
+                                                                      register_04[1] (net_173)
+                                                                        <- register_04[1] / u_6436.Q
+                                                             B1:
+                                                               net_172
+                                                                 <- u_9637.Y sky130_fd_sc_hd__nor2_2
+                                                                    A:
+                                                                      register_04[3] (net_205)
+                                                                        <shared DAG node>
+                                                                    B:
+                                                                      register_04[1] (net_173)
+                                                                        <shared DAG node>
+                                               B1:
+                                                 net_135
+                                                   <- u_9360.Y sky130_fd_sc_hd__xnor2_2
+                                                      A:
+                                                        net_28
+                                                          <- u_9341.Y sky130_fd_sc_hd__nand2_2
+                                                             A:
+                                                               register_03[3] (net_114)
+                                                                 <shared DAG node>
+                                                             B:
+                                                               net_9
+                                                                 <shared DAG node>
+                                                      B:
+                                                        net_141
+                                                          <shared DAG node>
+                                               B2:
+                                                 net_72
+                                                   <- u_9818.Y sky130_fd_sc_hd__nor2_2
+                                                      A:
+                                                        net_71
+                                                          <- u_9356.Y sky130_fd_sc_hd__xnor2_2
+                                                             A:
+                                                               register_03[3] (net_114)
+                                                                 <shared DAG node>
+                                                             B:
+                                                               net_9
+                                                                 <shared DAG node>
+                                                      B:
+                                                        net_58
+                                                          <- u_9608.Y sky130_fd_sc_hd__nand2_2
+                                                             A:
+                                                               register_03[2] (net_169)
+                                                                 <- register_03[2] / u_4662.Q
+                                                             B:
+                                                               register_04[2] (net_171)
+                                                                 <shared DAG node>
+                                        A2:
+                                          net_238
+                                            <- u_7375.Y sky130_fd_sc_hd__nand2_2
+                                               A:
+                                                 net_354
+                                                   <- u_7564.Y sky130_fd_sc_hd__xnor2_2
+                                                      A:
+                                                        register_03[1] (net_547)
+                                                          <- register_03[1] / u_4661.Q
+                                                      B:
+                                                        net_443
+                                                          <- u_7565.Y sky130_fd_sc_hd__xnor2_2
+                                                             A:
+                                                               net_302
+                                                                 <- u_7465.Y sky130_fd_sc_hd__nand2_2
+                                                                    A:
+                                                                      register_04[3] (net_205)
+                                                                        <shared DAG node>
+                                                                    B:
+                                                                      register_04[1] (net_173)
+                                                                        <shared DAG node>
+                                                             B:
+                                                               net_326
+                                                                 <- u_7567.X sky130_fd_sc_hd__xor2_2
+                                                                    A:
+                                                                      register_04[0] (net_206)
+                                                                        <- register_04[0] / u_6435.Q
+                                                                    B:
+                                                                      net_236
+                                                                        <shared DAG node>
+                                               B:
+                                                 net_265
+                                                   <- u_6949.X sky130_fd_sc_hd__o2bb2a_2
+                                                      A1_N:
+                                                        register_03[0] (net_1001)
+                                                          <shared DAG node>
+                                                      A2_N:
+                                                        net_178
+                                                          <shared DAG node>
+                                                      B1:
+                                                        net_204
+                                                          <- u_9622.Y sky130_fd_sc_hd__nand2_2
+                                                             A:
+                                                               register_04[2] (net_171)
+                                                                 <shared DAG node>
+                                                             B:
+                                                               register_04[3] (net_205)
+                                                                 <shared DAG node>
+                                                      B2:
+                                                        register_04[1] (net_173)
+                                                          <shared DAG node>
+                                        B1:
+                                          net_234
+                                            <- u_7415.Y sky130_fd_sc_hd__nor2_2
+                                               A:
+                                                 net_354
+                                                   <shared DAG node>
+                                               B:
+                                                 net_265
+                                                   <shared DAG node>
+                                 A2:
+                                   net_586
+                                     <- u_7374.Y sky130_fd_sc_hd__nor2_2
+                                        A:
+                                          net_548
+                                            <- u_7560.Y sky130_fd_sc_hd__a21oi_2
+                                               A1:
+                                                 net_442
+                                                   <- u_7656.Y sky130_fd_sc_hd__nand2b_2
+                                                      A_N:
+                                                        net_302
+                                                          <shared DAG node>
+                                                      B:
+                                                        net_326
+                                                          <shared DAG node>
+                                               A2:
+                                                 net_502
+                                                   <- u_7660.Y sky130_fd_sc_hd__nand2_2
+                                                      A:
+                                                        register_03[1] (net_547)
+                                                          <shared DAG node>
+                                                      B:
+                                                        net_443
+                                                          <shared DAG node>
+                                               B1:
+                                                 net_463
+                                                   <- u_7383.X sky130_fd_sc_hd__or3_2
+                                                      A:
+                                                        net_233
+                                                          <- u_6957.Y sky130_fd_sc_hd__nor2_2
+                                                             A:
+                                                               register_04[3] (net_205)
+                                                                 <shared DAG node>
+                                                             B:
+                                                               net_235
+                                                                 <- u_6953.Y sky130_fd_sc_hd__nand2_2
+                                                                    A:
+                                                                      register_04[0] (net_206)
+                                                                        <shared DAG node>
+                                                                    B:
+                                                                      net_236
+                                                                        <shared DAG node>
+                                                      B:
+                                                        net_275
+                                                          <- u_7454.Y sky130_fd_sc_hd__nor2_2
+                                                             A:
+                                                               net_350
+                                                                 <- u_6956.Y sky130_fd_sc_hd__nand2_2
+                                                                    A:
+                                                                      register_04[2] (net_171)
+                                                                        <shared DAG node>
+                                                                    B:
+                                                                      register_04[1] (net_173)
+                                                                        <shared DAG node>
+                                                             B:
+                                                               net_349
+                                                                 <- u_7566.Y sky130_fd_sc_hd__xnor2_2
+                                                                    A:
+                                                                      register_04[3] (net_205)
+                                                                        <shared DAG node>
+                                                                    B:
+                                                                      register_04[0] (net_206)
+                                                                        <shared DAG node>
+                                                      C:
+                                                        net_370
+                                                          <- u_7417.X sky130_fd_sc_hd__and3_2
+                                                             A:
+                                                               net_350
+                                                                 <shared DAG node>
+                                                             B:
+                                                               net_235
+                                                                 <shared DAG node>
+                                                             C:
+                                                               net_349
+                                                                 <shared DAG node>
+                                        B:
+                                          net_501
+                                            <- u_7382.X sky130_fd_sc_hd__and3_2
+                                               A:
+                                                 net_442
+                                                   <shared DAG node>
+                                               B:
+                                                 net_502
+                                                   <shared DAG node>
+                                               C:
+                                                 net_463
+                                                   <shared DAG node>
+                                 B1:
+                                   net_548
+                                     <shared DAG node>
+                          A2:
+                            net_303
+                              <- u_7380.Y sky130_fd_sc_hd__o22ai_2
+                                 A1:
+                                   register_04[3] (net_205)
+                                     <shared DAG node>
+                                 A2:
+                                   net_235
+                                     <shared DAG node>
+                                 B1:
+                                   net_324
+                                     <- u_7548.Y sky130_fd_sc_hd__a21oi_2
+                                        A1:
+                                          register_04[3] (net_205)
+                                            <shared DAG node>
+                                        A2:
+                                          register_04[0] (net_206)
+                                            <shared DAG node>
+                                        B1:
+                                          register_04[1] (net_173)
+                                            <shared DAG node>
+                                 B2:
+                                   net_277
+                                     <- u_6954.X sky130_fd_sc_hd__a31o_2
+                                        A1:
+                                          register_04[3] (net_205)
+                                            <shared DAG node>
+                                        A2:
+                                          register_04[1] (net_173)
+                                            <shared DAG node>
+                                        A3:
+                                          register_04[0] (net_206)
+                                            <shared DAG node>
+                                        B1:
+                                          net_275
+                                            <shared DAG node>
+                          B1:
+                            net_213
+                              <- u_8998.X sky130_fd_sc_hd__and4bb_2
+                                 A_N:
+                                   register_04[2] (net_171)
+                                     <shared DAG node>
+                                 B_N:
+                                   register_04[3] (net_205)
+                                     <shared DAG node>
+                                 C:
+                                   register_04[1] (net_173)
+                                     <shared DAG node>
+                                 D:
+                                   register_04[0] (net_206)
+                                     <shared DAG node>
+                   B:
+                     net_398
+                       <- u_7381.X sky130_fd_sc_hd__a21o_2
+                          A1:
+                            net_302
+                              <shared DAG node>
+                          A2:
+                            net_275
+                              <shared DAG node>
+                          B1:
+                            net_352
+                              <- u_7546.Y sky130_fd_sc_hd__a21oi_2
+                                 A1:
+                                   register_04[0] (net_206)
+                                     <shared DAG node>
+                                 A2:
+                                   net_302
+                                     <shared DAG node>
+                                 B1:
+                                   net_275
+                                     <shared DAG node>
+            A2:
+              net_466
+                <- u_7819.X sky130_fd_sc_hd__mux2_1
+                   A0:
+                     net_418
+                       <- u_7832.X sky130_fd_sc_hd__o32a_2
+                          A1:
+                            net_12
+                              <- u_6946.X sky130_fd_sc_hd__xor2_2
+                                 A:
+                                   net_237
+                                     <shared DAG node>
+                                 B:
+                                   net_586
+                                     <shared DAG node>
+                          A2:
+                            net_45
+                              <- u_9540.X sky130_fd_sc_hd__and3_2
+                                 A:
+                                   net_50
+                                     <- u_6964.Y sky130_fd_sc_hd__xnor2_2
+                                        A:
+                                          net_138
+                                            <shared DAG node>
+                                        B:
+                                          net_181
+                                            <- u_6980.Y sky130_fd_sc_hd__xnor2_2
+                                               A:
+                                                 net_354
+                                                   <shared DAG node>
+                                               B:
+                                                 net_265
+                                                   <shared DAG node>
+                                 B:
+                                   net_38
+                                     <- u_8999.Y sky130_fd_sc_hd__xnor2_2
+                                        A:
+                                          net_135
+                                            <shared DAG node>
+                                        B:
+                                          net_72
+                                            <shared DAG node>
+                                 C:
+                                   net_46
+                                     <- u_9615.X sky130_fd_sc_hd__and2_2
+                                        A:
+                                          net_37
+                                            <- u_9607.X sky130_fd_sc_hd__or2_2
+                                               A:
+                                                 net_108
+                                                   <- u_9470.X sky130_fd_sc_hd__and2_2
+                                                      A:
+                                                        register_03[2] (net_169)
+                                                          <shared DAG node>
+                                                      B:
+                                                        register_04[2] (net_171)
+                                                          <shared DAG node>
+                                               B:
+                                                 net_107
+                                                   <- u_9636.Y sky130_fd_sc_hd__nor2_2
+                                                      A:
+                                                        register_03[2] (net_169)
+                                                          <shared DAG node>
+                                                      B:
+                                                        register_04[2] (net_171)
+                                                          <shared DAG node>
+                                        B:
+                                          net_11
+                                            <- u_9344.X sky130_fd_sc_hd__and2b_2
+                                               A_N:
+                                                 net_72
+                                                   <shared DAG node>
+                                               B:
+                                                 net_59
+                                                   <- u_9346.Y sky130_fd_sc_hd__nand2_2
+                                                      A:
+                                                        net_71
+                                                          <shared DAG node>
+                                                      B:
+                                                        net_58
+                                                          <shared DAG node>
+                          A3:
+                            net_402
+                              <- u_9003.Y sky130_fd_sc_hd__nor2_2
+                                 A:
+                                   net_50
+                                     <shared DAG node>
+                                 B:
+                                   net_52
+                                     <- u_9611.X sky130_fd_sc_hd__or3_2
+                                        A:
+                                          net_20
+                                            <- u_9602.Y sky130_fd_sc_hd__nor2_2
+                                               A:
+                                                 net_71
+                                                   <shared DAG node>
+                                               B:
+                                                 net_37
+                                                   <shared DAG node>
+                                        B:
+                                          net_38
+                                            <shared DAG node>
+                                        C:
+                                          net_6
+                                            <- u_9810.Y sky130_fd_sc_hd__nor2_2
+                                               A:
+                                                 net_40
+                                                   <- u_9730.Y sky130_fd_sc_hd__nor2_2
+                                                      A:
+                                                        net_108
+                                                          <shared DAG node>
+                                                      B:
+                                                        net_107
+                                                          <shared DAG node>
+                                               B:
+                                                 net_11
+                                                   <shared DAG node>
+                          B1:
+                            net_134
+                              <- u_6921.Y sky130_fd_sc_hd__nor2_2
+                                 A:
+                                   net_69
+                                     <- u_9345.Y sky130_fd_sc_hd__nor2_2
+                                        A:
+                                          net_38
+                                            <shared DAG node>
+                                        B:
+                                          net_6
+                                            <shared DAG node>
+                                 B:
+                                   net_106
+                                     <- u_9010.Y sky130_fd_sc_hd__nand2_2
+                                        A:
+                                          net_50
+                                            <shared DAG node>
+                                        B:
+                                          net_39
+                                            <- u_9605.Y sky130_fd_sc_hd__nand2_2
+                                               A:
+                                                 net_38
+                                                   <shared DAG node>
+                                               B:
+                                                 net_6
+                                                   <shared DAG node>
+                          B2:
+                            net_184
+                              <- u_9062.Y sky130_fd_sc_hd__o31ai_2
+                                 A1:
+                                   net_50
+                                     <shared DAG node>
+                                 A2:
+                                   net_78
+                                     <- u_9790.Y sky130_fd_sc_hd__nor2_2
+                                        A:
+                                          net_38
+                                            <shared DAG node>
+                                        B:
+                                          net_41
+                                            <- u_9597.Y sky130_fd_sc_hd__nor2_2
+                                               A:
+                                                 net_107
+                                                   <shared DAG node>
+                                               B:
+                                                 net_59
+                                                   <shared DAG node>
+                                 A3:
+                                   net_185
+                                     <- u_9009.Y sky130_fd_sc_hd__inv_2
+                                        A:
+                                          net_2
+                                            <- u_9338.X sky130_fd_sc_hd__or2_2
+                                               A:
+                                                 net_8
+                                                   <- u_8995.X sky130_fd_sc_hd__xor2_2
+                                                      A:
+                                                        net_135
+                                                          <shared DAG node>
+                                                      B:
+                                                        net_72
+                                                          <shared DAG node>
+                                               B:
+                                                 net_6
+                                                   <shared DAG node>
+                                 B1:
+                                   net_12
+                                     <shared DAG node>
+                   A1:
+                     net_44
+                       <- u_9357.X sky130_fd_sc_hd__mux2_1
+                          A0:
+                            net_30
+                              <- u_9012.X sky130_fd_sc_hd__o21a_2
+                                 A1:
+                                   net_20
+                                     <shared DAG node>
+                                 A2:
+                                   net_106
+                                     <shared DAG node>
+                                 B1:
+                                   net_51
+                                     <- u_9265.X sky130_fd_sc_hd__or2_2
+                                        A:
+                                          net_50
+                                            <shared DAG node>
+                                        B:
+                                          net_6
+                                            <shared DAG node>
+                          A1:
+                            net_60
+                              <- u_9044.X sky130_fd_sc_hd__a31o_2
+                                 A1:
+                                   net_15
+                                     <- u_9000.X sky130_fd_sc_hd__xor2_2
+                                        A:
+                                          net_138
+                                            <shared DAG node>
+                                        B:
+                                          net_181
+                                            <shared DAG node>
+                                 A2:
+                                   net_36
+                                     <- u_9705.Y sky130_fd_sc_hd__nand2_2
+                                        A:
+                                          net_135
+                                            <shared DAG node>
+                                        B:
+                                          net_11
+                                            <shared DAG node>
+                                 A3:
+                                   net_5
+                                     <- u_9763.Y sky130_fd_sc_hd__nand2_2
+                                        A:
+                                          net_37
+                                            <shared DAG node>
+                                        B:
+                                          net_38
+                                            <shared DAG node>
+                                 B1:
+                                   net_46
+                                     <shared DAG node>
+                          S:
+                            net_12
+                              <shared DAG node>
+                   S:
+                     net_312
+                       <- u_6982.X sky130_fd_sc_hd__xor2_2
+                          A:
+                            net_279
+                              <shared DAG node>
+                          B:
+                            net_280
+                              <- u_7416.X sky130_fd_sc_hd__and2b_2
+                                 A_N:
+                                   net_213
+                                     <shared DAG node>
+                                 B:
+                                   net_303
+                                     <shared DAG node>
+            B1:
+              net_509
+                <- u_7914.X sky130_fd_sc_hd__a211o_2
+                   A1:
+                     net_312
+                       <shared DAG node>
+                   A2:
+                     net_119
+                       <- u_9046.X sky130_fd_sc_hd__a32o_2
+                          A1:
+                            net_12
+                              <shared DAG node>
+                          A2:
+                            net_106
+                              <shared DAG node>
+                          A3:
+                            net_4
+                              <- u_9013.X sky130_fd_sc_hd__or2_2
+                                 A:
+                                   net_50
+                                     <shared DAG node>
+                                 B:
+                                   net_22
+                                     <- u_9612.X sky130_fd_sc_hd__or2_2
+                                        A:
+                                          net_8
+                                            <shared DAG node>
+                                        B:
+                                          net_11
+                                            <shared DAG node>
+                          B1:
+                            net_18
+                              <- u_8996.X sky130_fd_sc_hd__o22a_2
+                                 A1:
+                                   net_15
+                                     <shared DAG node>
+                                 A2:
+                                   net_17
+                                     <- u_9047.Y sky130_fd_sc_hd__nand2b_2
+                                        A_N:
+                                          net_46
+                                            <shared DAG node>
+                                        B:
+                                          net_22
+                                            <shared DAG node>
+                                 B1:
+                                   net_4
+                                     <shared DAG node>
+                                 B2:
+                                   net_40
+                                     <shared DAG node>
+                          B2:
+                            net_120
+                              <- u_9348.Y sky130_fd_sc_hd__a21oi_2
+                                 A1:
+                                   net_15
+                                     <shared DAG node>
+                                 A2:
+                                   net_69
+                                     <shared DAG node>
+                                 B1:
+                                   net_12
+                                     <shared DAG node>
+                   B1:
+                     net_79
+                       <- u_9358.X sky130_fd_sc_hd__o221a_2
+                          A1:
+                            net_78
+                              <shared DAG node>
+                          A2:
+                            net_77
+                              <- u_6977.Y sky130_fd_sc_hd__o21ai_2
+                                 A1:
+                                   net_15
+                                     <shared DAG node>
+                                 A2:
+                                   net_185
+                                     <shared DAG node>
+                                 B1:
+                                   net_12
+                                     <shared DAG node>
+                          B1:
+                            net_76
+                              <- u_9245.X sky130_fd_sc_hd__o21a_2
+                                 A1:
+                                   net_15
+                                     <shared DAG node>
+                                 A2:
+                                   net_1
+                                     <- u_9351.X sky130_fd_sc_hd__and2_2
+                                        A:
+                                          net_36
+                                            <shared DAG node>
+                                        B:
+                                          net_5
+                                            <shared DAG node>
+                                 B1:
+                                   net_4
+                                     <shared DAG node>
+                          B2:
+                            net_12
+                              <shared DAG node>
+                          C1:
+                            net_74
+                              <- u_6945.Y sky130_fd_sc_hd__xnor2_2
+                                 A:
+                                   net_279
+                                     <shared DAG node>
+                                 B:
+                                   net_280
+                                     <shared DAG node>
+                   C1:
+                     net_507
+                       <- u_6981.Y sky130_fd_sc_hd__xnor2_2
+                          A:
+                            net_416
+                              <shared DAG node>
+                          B:
+                            net_398
+                              <shared DAG node>
+            C1:
+              net_417
+                <- u_7400.Y sky130_fd_sc_hd__nor2_2
+                   A:
+                     net_462
+                       <- u_7435.Y sky130_fd_sc_hd__nor2_2
+                          A:
+                            net_416
+                              <shared DAG node>
+                          B:
+                            net_398
+                              <shared DAG node>
+                   B:
+                     net_208
+                       <- u_9343.X sky130_fd_sc_hd__o211a_2
+                          A1:
+                            register_04[2] (net_171)
+                              <shared DAG node>
+                          A2:
+                            register_04[3] (net_205)
+                              <shared DAG node>
+                          B1:
+                            register_04[1] (net_173)
+                              <shared DAG node>
+                          C1:
+                            register_04[0] (net_206)
+                              <shared DAG node>
+     B:
+       net_559
+         <- u_6987.X sky130_fd_sc_hd__o211a_2
+            A1:
+              net_400
+                <shared DAG node>
+            A2:
+              net_549
+                <- u_7764.Y sky130_fd_sc_hd__o21ai_2
+                   A1:
+                     net_312
+                       <shared DAG node>
+                   A2:
+                     net_329
+                       <- u_8011.X sky130_fd_sc_hd__o32a_2
+                          A1:
+                            net_12
+                              <shared DAG node>
+                          A2:
+                            net_45
+                              <shared DAG node>
+                          A3:
+                            net_31
+                              <- u_9198.Y sky130_fd_sc_hd__a21oi_2
+                                 A1:
+                                   net_50
+                                     <shared DAG node>
+                                 A2:
+                                   net_46
+                                     <shared DAG node>
+                                 B1:
+                                   net_52
+                                     <shared DAG node>
+                          B1:
+                            net_184
+                              <shared DAG node>
+                          B2:
+                            net_90
+                              <- u_9760.Y sky130_fd_sc_hd__nor2_2
+                                 A:
+                                   net_15
+                                     <shared DAG node>
+                                 B:
+                                   net_69
+                                     <shared DAG node>
+                   B1:
+                     net_111
+                       <- u_9342.X sky130_fd_sc_hd__or4_2
+                          A:
+                            net_12
+                              <shared DAG node>
+                          B:
+                            net_74
+                              <shared DAG node>
+                          C:
+                            net_113
+                              <- u_9008.X sky130_fd_sc_hd__or3_2
+                                 A:
+                                   net_20
+                                     <shared DAG node>
+                                 B:
+                                   net_6
+                                     <shared DAG node>
+                                 C:
+                                   net_78
+                                     <shared DAG node>
+                          D:
+                            net_91
+                              <- u_9336.X sky130_fd_sc_hd__o21a_2
+                                 A1:
+                                   net_20
+                                     <shared DAG node>
+                                 A2:
+                                   net_2
+                                     <shared DAG node>
+                                 B1:
+                                   net_15
+                                     <shared DAG node>
+            B1:
+              net_465
+                <- u_6979.X sky130_fd_sc_hd__a221o_2
+                   A1:
+                     net_12
+                       <shared DAG node>
+                   A2:
+                     net_256
+                       <- u_6963.Y sky130_fd_sc_hd__o22ai_2
+                          A1:
+                            net_50
+                              <shared DAG node>
+                          A2:
+                            net_39
+                              <shared DAG node>
+                          B1:
+                            net_96
+                              <- u_9007.X sky130_fd_sc_hd__or3_2
+                                 A:
+                                   net_20
+                                     <shared DAG node>
+                                 B:
+                                   net_15
+                                     <shared DAG node>
+                                 C:
+                                   net_2
+                                     <shared DAG node>
+                          B2:
+                            net_312
+                              <shared DAG node>
+                   B1:
+                     net_446
+                       <- u_7854.X sky130_fd_sc_hd__or2_2
+                          A:
+                            net_312
+                              <shared DAG node>
+                          B:
+                            net_232
+                              <- u_6872.Y sky130_fd_sc_hd__nor2_2
+                                 A:
+                                   net_15
+                                     <shared DAG node>
+                                 B:
+                                   net_36
+                                     <shared DAG node>
+                   B2:
+                     net_447
+                       <- u_7852.Y sky130_fd_sc_hd__a21oi_2
+                          A1:
+                            net_312
+                              <shared DAG node>
+                          A2:
+                            net_219
+                              <- u_9115.X sky130_fd_sc_hd__o21ba_2
+                                 A1:
+                                   net_50
+                                     <shared DAG node>
+                                 A2:
+                                   net_42
+                                     <- u_9340.Y sky130_fd_sc_hd__nand2_2
+                                        A:
+                                          net_135
+                                            <shared DAG node>
+                                        B:
+                                          net_41
+                                            <shared DAG node>
+                                 B1_N:
+                                   net_170
+                                     <- u_9714.Y sky130_fd_sc_hd__nor2_2
+                                        A:
+                                          net_136
+                                            <- u_9598.Y sky130_fd_sc_hd__nand2_2
+                                               A:
+                                                 net_135
+                                                   <shared DAG node>
+                                               B:
+                                                 net_20
+                                                   <shared DAG node>
+                                        B:
+                                          net_15
+                                            <shared DAG node>
+                          B1:
+                            net_12
+                              <shared DAG node>
+                   C1:
+                     net_507
+                       <shared DAG node>
+            C1:
+              net_417
+                <shared DAG node>
+     C:
+       net_643
+         <- u_7824.X sky130_fd_sc_hd__o211a_2
+            A1:
+              net_264
+                <- u_6948.X sky130_fd_sc_hd__o311a_2
+                   A1:
+                     net_202
+                       <- u_6936.Y sky130_fd_sc_hd__nor2_2
+                          A:
+                            net_136
+                              <shared DAG node>
+                          B:
+                            net_50
+                              <shared DAG node>
+                   A2:
+                     net_12
+                       <shared DAG node>
+                   A3:
+                     net_45
+                       <shared DAG node>
+                   B1:
+                     net_74
+                       <shared DAG node>
+                   C1:
+                     net_216
+                       <- u_9004.Y sky130_fd_sc_hd__nand2_2
+                          A:
+                            net_12
+                              <shared DAG node>
+                          B:
+                            net_218
+                              <- u_9063.X sky130_fd_sc_hd__mux2_1
+                                 A0:
+                                   net_52
+                                     <shared DAG node>
+                                 A1:
+                                   net_113
+                                     <shared DAG node>
+                                 S:
+                                   net_15
+                                     <shared DAG node>
+            A2:
+              net_404
+                <- u_7820.X sky130_fd_sc_hd__a31o_2
+                   A1:
+                     net_312
+                       <shared DAG node>
+                   A2:
+                     net_95
+                       <- u_9043.X sky130_fd_sc_hd__a21bo_2
+                          A1:
+                            net_38
+                              <shared DAG node>
+                          A2:
+                            net_51
+                              <shared DAG node>
+                          B1_N:
+                            net_120
+                              <shared DAG node>
+                   A3:
+                     net_467
+                       <- u_9127.Y sky130_fd_sc_hd__nand2_2
+                          A:
+                            net_12
+                              <shared DAG node>
+                          B:
+                            net_145
+                              <- u_9045.Y sky130_fd_sc_hd__o31ai_2
+                                 A1:
+                                   net_20
+                                     <shared DAG node>
+                                 A2:
+                                   net_15
+                                     <shared DAG node>
+                                 A3:
+                                   net_8
+                                     <shared DAG node>
+                                 B1:
+                                   net_136
+                                     <shared DAG node>
+                   B1:
+                     net_400
+                       <shared DAG node>
+            B1:
+              net_417
+                <shared DAG node>
+            C1:
+              net_403
+                <- u_6984.X sky130_fd_sc_hd__or3_2
+                   A:
+                     net_507
+                       <shared DAG node>
+                   B:
+                     net_239
+                       <- u_6947.X sky130_fd_sc_hd__o211a_2
+                          A1:
+                            net_203
+                              <- u_9614.Y sky130_fd_sc_hd__nand2_2
+                                 A:
+                                   net_12
+                                     <shared DAG node>
+                                 B:
+                                   net_106
+                                     <shared DAG node>
+                          A2:
+                            net_14
+                              <- u_9005.Y sky130_fd_sc_hd__nor2_2
+                                 A:
+                                   net_50
+                                     <shared DAG node>
+                                 B:
+                                   net_69
+                                     <shared DAG node>
+                          B1:
+                            net_74
+                              <shared DAG node>
+                          C1:
+                            net_196
+                              <- u_9337.X sky130_fd_sc_hd__or3_2
+                                 A:
+                                   net_12
+                                     <shared DAG node>
+                                 B:
+                                   net_232
+                                     <shared DAG node>
+                                 C:
+                                   net_62
+                                     <- u_9006.Y sky130_fd_sc_hd__nor2_2
+                                        A:
+                                          net_15
+                                            <shared DAG node>
+                                        B:
+                                          net_22
+                                            <shared DAG node>
+                   C:
+                     net_316
+                       <- u_7767.Y sky130_fd_sc_hd__a21oi_2
+                          A1:
+                            net_203
+                              <shared DAG node>
+                          A2:
+                            net_94
+                              <- u_9001.X sky130_fd_sc_hd__or3_2
+                                 A:
+                                   net_12
+                                     <shared DAG node>
+                                 B:
+                                   net_14
+                                     <shared DAG node>
+                                 C:
+                                   net_48
+                                     <- u_8997.X sky130_fd_sc_hd__o211a_2
+                                        A1:
+                                          net_20
+                                            <shared DAG node>
+                                        A2:
+                                          net_8
+                                            <shared DAG node>
+                                        B1:
+                                          net_50
+                                            <shared DAG node>
+                                        C1:
+                                          net_136
+                                            <shared DAG node>
+                          B1:
+                            net_74
+                              <shared DAG node>
+     D:
+       net_497
+         <- u_7563.X sky130_fd_sc_hd__o211a_2
+            A1:
+              net_400
+                <shared DAG node>
+            A2:
+              net_419
+                <- u_7768.X sky130_fd_sc_hd__a21o_2
+                   A1:
+                     net_312
+                       <shared DAG node>
+                   A2:
+                     net_374
+                       <- u_8044.X sky130_fd_sc_hd__a21bo_2
+                          A1:
+                            net_12
+                              <shared DAG node>
+                          A2:
+                            net_170
+                              <shared DAG node>
+                          B1_N:
+                            net_250
+                              <- u_6968.X sky130_fd_sc_hd__a211o_2
+                                 A1:
+                                   net_50
+                                     <shared DAG node>
+                                 A2:
+                                   net_42
+                                     <shared DAG node>
+                                 B1:
+                                   net_91
+                                     <shared DAG node>
+                                 C1:
+                                   net_12
+                                     <shared DAG node>
+                   B1:
+                     net_406
+                       <- u_7404.X sky130_fd_sc_hd__and3_2
+                          A:
+                            net_74
+                              <shared DAG node>
+                          B:
+                            net_29
+                              <- u_9347.X sky130_fd_sc_hd__a311o_2
+                                 A1:
+                                   net_135
+                                     <shared DAG node>
+                                 A2:
+                                   net_12
+                                     <shared DAG node>
+                                 A3:
+                                   net_11
+                                     <shared DAG node>
+                                 B1:
+                                   net_14
+                                     <shared DAG node>
+                                 C1:
+                                   net_16
+                                     <- u_7769.X sky130_fd_sc_hd__and3_2
+                                        A:
+                                          net_50
+                                            <shared DAG node>
+                                        B:
+                                          net_282
+                                            <- u_6962.Y sky130_fd_sc_hd__inv_2
+                                               A:
+                                                 net_41
+                                                   <shared DAG node>
+                                        C:
+                                          net_5
+                                            <shared DAG node>
+                          C:
+                            net_562
+                              <- u_7816.Y sky130_fd_sc_hd__o21ai_2
+                                 A1:
+                                   net_14
+                                     <shared DAG node>
+                                 A2:
+                                   net_16
+                                     <shared DAG node>
+                                 B1:
+                                   net_12
+                                     <shared DAG node>
+            B1:
+              net_355
+                <- u_7825.Y sky130_fd_sc_hd__o211ai_2
+                   A1:
+                     net_312
+                       <shared DAG node>
+                   A2:
+                     net_328
+                       <- u_7823.X sky130_fd_sc_hd__mux2_1
+                          A0:
+                            net_327
+                              <- u_7766.X sky130_fd_sc_hd__or2_2
+                                 A:
+                                   net_62
+                                     <shared DAG node>
+                                 B:
+                                   net_128
+                                     <- u_9049.X sky130_fd_sc_hd__o21a_2
+                                        A1:
+                                          net_15
+                                            <shared DAG node>
+                                        A2:
+                                          net_41
+                                            <shared DAG node>
+                                        B1:
+                                          net_22
+                                            <shared DAG node>
+                          A1:
+                            net_313
+                              <- u_9002.X sky130_fd_sc_hd__a22o_2
+                                 A1:
+                                   net_39
+                                     <shared DAG node>
+                                 A2:
+                                   net_14
+                                     <shared DAG node>
+                                 B1:
+                                   net_2
+                                     <shared DAG node>
+                                 B2:
+                                   net_50
+                                     <shared DAG node>
+                          S:
+                            net_12
+                              <shared DAG node>
+                   B1:
+                     net_325
+                       <- u_7379.X sky130_fd_sc_hd__a211o_2
+                          A1:
+                            net_12
+                              <shared DAG node>
+                          A2:
+                            net_22
+                              <shared DAG node>
+                          B1:
+                            net_305
+                              <- u_6960.X sky130_fd_sc_hd__mux2_1
+                                 A0:
+                                   net_14
+                                     <shared DAG node>
+                                 A1:
+                                   net_50
+                                     <shared DAG node>
+                                 S:
+                                   net_17
+                                     <shared DAG node>
+                          C1:
+                            net_74
+                              <shared DAG node>
+                   C1:
+                     net_400
+                       <shared DAG node>
+            C1:
+              net_417
+                <shared DAG node>

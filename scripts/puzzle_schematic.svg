@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="960" viewBox="0 0 1400 960">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#334155"/>
+    </marker>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#2563eb"/>
+    </marker>
+    <style>
+      .title { font: 700 28px sans-serif; fill: #0f172a; }
+      .subtitle { font: 15px sans-serif; fill: #475569; }
+      .heading { font: 700 18px sans-serif; fill: #0f172a; }
+      .label { font: 15px sans-serif; fill: #0f172a; }
+      .small { font: 13px sans-serif; fill: #475569; }
+      .tiny { font: 12px monospace; fill: #334155; }
+      .port { fill: #e0f2fe; stroke: #0284c7; stroke-width: 2; }
+      .seq { fill: #ede9fe; stroke: #7c3aed; stroke-width: 2.5; }
+      .logic { fill: #fef3c7; stroke: #d97706; stroke-width: 2.5; }
+      .output { fill: #dcfce7; stroke: #16a34a; stroke-width: 2.5; }
+      .control { fill: #fee2e2; stroke: #dc2626; stroke-width: 2.5; }
+      .panel { fill: #f8fafc; stroke: #cbd5e1; stroke-width: 2; }
+      .wire { fill: none; stroke: #334155; stroke-width: 2.5; marker-end: url(#arrow); }
+      .bus { fill: none; stroke: #2563eb; stroke-width: 5; marker-end: url(#arrowBlue); }
+      .clock { fill: none; stroke: #64748b; stroke-width: 2; stroke-dasharray: 8 6; marker-end: url(#arrow); }
+      .feedback { fill: none; stroke: #dc2626; stroke-width: 2.5; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect width="1400" height="960" fill="white"/>
+  <text x="40" y="42" class="title">Recovered high-level schematic of puzzle.gds</text>
+  <text x="40" y="66" class="subtitle">Derived from GDS metal connectivity and SKY130 Liberty functions; large gate cones are grouped for readability.</text>
+
+  <rect x="35" y="85" width="1330" height="500" rx="12" class="panel"/>
+  <text x="55" y="116" class="heading">Recovered top-level signal flow</text>
+
+  <!-- Input ports -->
+  <rect x="65" y="145" width="125" height="48" rx="8" class="port"/>
+  <text x="127" y="166" text-anchor="middle" class="heading">I</text>
+  <text x="127" y="184" text-anchor="middle" class="tiny">net_520</text>
+
+  <rect x="65" y="286" width="125" height="48" rx="8" class="port"/>
+  <text x="127" y="307" text-anchor="middle" class="heading">enable</text>
+  <text x="127" y="325" text-anchor="middle" class="tiny">net_1186</text>
+
+  <rect x="65" y="442" width="125" height="48" rx="8" class="port"/>
+  <text x="127" y="472" text-anchor="middle" class="heading">clk</text>
+
+  <rect x="65" y="512" width="125" height="48" rx="8" class="port"/>
+  <text x="127" y="542" text-anchor="middle" class="heading">rst_n</text>
+
+  <!-- Shift register -->
+  <rect x="285" y="130" width="285" height="130" rx="10" class="seq"/>
+  <text x="427" y="161" text-anchor="middle" class="heading">12-bit shift register</text>
+  <text x="427" y="188" text-anchor="middle" class="label">12 × (MUX2 + DFF)</text>
+  <text x="427" y="213" text-anchor="middle" class="small">Serial input: I / net_520</text>
+  <text x="427" y="235" text-anchor="middle" class="small">Region: x 69.27–94.95, y 133.04–166.16 µm</text>
+
+  <!-- Qualified enable -->
+  <rect x="285" y="290" width="285" height="86" rx="10" class="control"/>
+  <text x="427" y="319" text-anchor="middle" class="heading">Qualified shift enable</text>
+  <text x="427" y="347" text-anchor="middle" class="label">net_604 = enable ∧ ¬net_1968</text>
+  <text x="427" y="367" text-anchor="middle" class="small">net_1968 is a registered control bit</text>
+
+  <!-- State logic -->
+  <rect x="680" y="125" width="300" height="245" rx="10" class="logic"/>
+  <text x="830" y="158" text-anchor="middle" class="heading">Control / state-update logic</text>
+  <text x="830" y="188" text-anchor="middle" class="label">80 other flip-flops</text>
+  <text x="830" y="214" text-anchor="middle" class="label">+ combinational SKY130 gates</text>
+  <text x="830" y="251" text-anchor="middle" class="small">Includes registered control net_1968</text>
+  <text x="830" y="276" text-anchor="middle" class="small">Uses shifted bits and current input</text>
+  <text x="830" y="314" text-anchor="middle" class="small">92 total FFs in the complete design</text>
+  <text x="830" y="338" text-anchor="middle" class="small">16 buffered clock-leaf groups</text>
+
+  <!-- Output logic -->
+  <rect x="1065" y="120" width="245" height="190" rx="10" class="output"/>
+  <text x="1187" y="153" text-anchor="middle" class="heading">Output generator</text>
+  <text x="1187" y="184" text-anchor="middle" class="label">8 combinational cones</text>
+  <text x="1187" y="210" text-anchor="middle" class="small">35–58 cells per output</text>
+  <text x="1187" y="235" text-anchor="middle" class="small">16 register boundaries each</text>
+  <text x="1187" y="271" text-anchor="middle" class="heading">O[7:0]</text>
+
+  <!-- Success output -->
+  <rect x="1065" y="380" width="170" height="80" rx="8" class="seq"/>
+  <text x="1150" y="409" text-anchor="middle" class="heading">Success DFF</text>
+  <text x="1150" y="434" text-anchor="middle" class="tiny">u_228 Q=net_2380</text>
+  <rect x="1260" y="393" width="80" height="54" rx="8" class="output"/>
+  <text x="1300" y="426" text-anchor="middle" class="heading">success</text>
+
+  <!-- Clock/reset distribution -->
+  <rect x="285" y="425" width="285" height="115" rx="10" class="port"/>
+  <text x="427" y="459" text-anchor="middle" class="heading">Clock/reset distribution</text>
+  <text x="427" y="486" text-anchor="middle" class="small">Buffered clock tree → all sequential cells</text>
+  <text x="427" y="511" text-anchor="middle" class="small">rst_n → 84 RESET_B + 4 SET_B pins</text>
+
+  <!-- Main arrows -->
+  <path d="M190 169 H285" class="bus"/>
+  <text x="218" y="157" class="tiny">serial</text>
+
+  <path d="M190 310 H285" class="wire"/>
+  <path d="M427 290 V260" class="feedback"/>
+  <text x="439" y="281" class="tiny">S=net_604</text>
+
+  <path d="M570 194 H680" class="bus"/>
+  <text x="594" y="180" class="tiny">Q[11:0]</text>
+
+  <path d="M680 330 H610 V350 H570" class="feedback"/>
+  <text x="588" y="339" class="tiny">net_1968</text>
+
+  <path d="M980 206 H1065" class="bus"/>
+  <text x="985" y="192" class="tiny">state nets</text>
+
+  <path d="M1310 215 H1350" class="bus"/>
+  <path d="M980 315 H1020 V420 H1065" class="wire"/>
+  <text x="989" y="336" class="tiny">next_success</text>
+  <path d="M1235 420 H1260" class="wire"/>
+
+  <path d="M190 466 H285" class="clock"/>
+  <path d="M190 536 H285" class="clock"/>
+  <path d="M570 466 H620 V245 H680" class="clock"/>
+  <path d="M570 485 H1025 V420 H1065" class="clock"/>
+  <path d="M570 505 H610 V235 H570" class="clock"/>
+
+  <!-- Detailed stage panel -->
+  <rect x="35" y="610" width="1330" height="315" rx="12" class="panel"/>
+  <text x="55" y="644" class="heading">One expanded shift-register stage (repeated 12 times)</text>
+
+  <rect x="75" y="690" width="145" height="54" rx="8" class="port"/>
+  <text x="147" y="713" text-anchor="middle" class="label">previous Q</text>
+  <text x="147" y="733" text-anchor="middle" class="small">I for stage 0</text>
+
+  <polygon points="315,675 430,710 430,790 315,825" class="control"/>
+  <text x="368" y="729" text-anchor="middle" class="heading">MUX2</text>
+  <text x="340" y="758" class="tiny">A1 shift</text>
+  <text x="340" y="790" class="tiny">A0 hold</text>
+
+  <rect x="555" y="700" width="170" height="105" rx="8" class="seq"/>
+  <text x="640" y="731" text-anchor="middle" class="heading">D flip-flop</text>
+  <text x="575" y="762" class="tiny">D</text>
+  <text x="685" y="762" class="tiny">Q</text>
+  <text x="640" y="790" text-anchor="middle" class="small">CLK + RESET_B</text>
+
+  <rect x="835" y="690" width="145" height="54" rx="8" class="port"/>
+  <text x="907" y="713" text-anchor="middle" class="label">Q[i]</text>
+  <text x="907" y="733" text-anchor="middle" class="small">to next A1</text>
+
+  <path d="M220 717 H315" class="wire"/>
+  <path d="M430 752 H555" class="wire"/>
+  <path d="M725 752 H835" class="bus"/>
+  <path d="M790 752 V870 H285 V790 H315" class="feedback"/>
+  <text x="474" y="861" class="small">feedback: Q[i] → A0 (hold current value)</text>
+
+  <path d="M368 660 V690" class="feedback"/>
+  <text x="381" y="671" class="tiny">S = net_604</text>
+
+  <text x="1035" y="687" class="heading">Recovered Q-net order</text>
+  <text x="1035" y="716" class="tiny">I/net_520 → net_1577 → net_1547</text>
+  <text x="1035" y="740" class="tiny">→ net_1596 → net_1458 → net_1402</text>
+  <text x="1035" y="764" class="tiny">→ net_1349 → net_1309 → net_1212</text>
+  <text x="1035" y="788" class="tiny">→ net_1248 → net_1308 → net_1358</text>
+  <text x="1035" y="812" class="tiny">→ net_1512</text>
+
+  <text x="75" y="902" class="subtitle">When net_604=0, each MUX selects A0 and every bit holds. When net_604=1, it selects A1 and the 12-bit chain shifts.</text>
+</svg>

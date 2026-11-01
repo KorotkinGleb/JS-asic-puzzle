@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "root_nets": [
+    2380
+  ],
+  "combinational_ids": [],
+  "sequential_boundary_ids": [
+    228
+  ],
+  "boundary_input_nets": [],
+  "constant_nets": [],
+  "edges": [],
+  "net_levels": {
+    "2380": 0
+  },
+  "cell_levels": {},
+  "sequential_levels": {
+    "228": 0
+  }
+}

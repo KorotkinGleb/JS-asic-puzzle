@@ -1,0 +1,18 @@
+# Python virtual environments
+.venv/
+
+# Local VS Code settings
+.vscode/
+
+.pycache/
+__pycache__/
+*.pyc
+*.out
+*.vvp
+*.vcd
+
+# Simulation executables without file extensions
+/scripts/register_10_tb
+/soft/tests/guess
+/soft/tests/tb_02
+/soft/test_netlist/cell_test

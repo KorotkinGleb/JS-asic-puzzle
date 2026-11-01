@@ -1,0 +1,268 @@
+{
+  "schema_version": 1,
+  "gds": "/Users/korotkingleb/Learn/asic-puzzle-2026/puzzle.gds",
+  "gds_top": "puzzle",
+  "context": "soft/output/context.json",
+  "dag": "soft/output/dag.json",
+  "register_catalog": "soft/output/registers.json",
+  "focused_trace": {
+    "net": 2380,
+    "module": "recovered_success_logic",
+    "directory": "soft/output/net_traces/net_2380_success",
+    "path": "soft/output/net_traces/net_2380_success/recovered_success_logic.v",
+    "trace_json": "soft/output/net_traces/net_2380_success/trace.json",
+    "tree": "soft/output/net_traces/net_2380_success/tree.txt"
+  },
+  "register_modules": [
+    {
+      "register": "shift_register",
+      "module": "recovered_shift_register",
+      "path": "soft/output/registers/recovered_shift_register.v",
+      "inputs": [
+        "I",
+        "clk",
+        "enable",
+        "rst_n",
+        "register_16"
+      ],
+      "combinational_cells": 13
+    },
+    {
+      "register": "register_02",
+      "module": "recovered_register_02",
+      "path": "soft/output/registers/recovered_register_02.v",
+      "inputs": [
+        "clk",
+        "register_09"
+      ],
+      "combinational_cells": 9
+    },
+    {
+      "register": "register_03",
+      "module": "recovered_register_03",
+      "path": "soft/output/registers/recovered_register_03.v",
+      "inputs": [
+        "clk",
+        "enable",
+        "rst_n",
+        "register_16"
+      ],
+      "combinational_cells": 11
+    },
+    {
+      "register": "register_04",
+      "module": "recovered_register_04",
+      "path": "soft/output/registers/recovered_register_04.v",
+      "inputs": [
+        "clk",
+        "enable",
+        "rst_n",
+        "register_03",
+        "register_16"
+      ],
+      "combinational_cells": 14
+    },
+    {
+      "register": "register_05",
+      "module": "recovered_register_05",
+      "path": "soft/output/registers/recovered_register_05.v",
+      "inputs": [
+        "I",
+        "clk",
+        "enable",
+        "rst_n",
+        "register_03",
+        "register_16"
+      ],
+      "combinational_cells": 6
+    },
+    {
+      "register": "register_06",
+      "module": "recovered_register_06",
+      "path": "soft/output/registers/recovered_register_06.v",
+      "inputs": [
+        "I",
+        "clk",
+        "enable",
+        "rst_n",
+        "register_03",
+        "register_16"
+      ],
+      "combinational_cells": 13
+    },
+    {
+      "register": "register_07",
+      "module": "recovered_register_07",
+      "path": "soft/output/registers/recovered_register_07.v",
+      "inputs": [
+        "I",
+        "clk",
+        "enable",
+        "rst_n",
+        "register_16"
+      ],
+      "combinational_cells": 22
+    },
+    {
+      "register": "register_08",
+      "module": "recovered_register_08",
+      "path": "soft/output/registers/recovered_register_08.v",
+      "inputs": [
+        "I",
+        "clk",
+        "enable",
+        "rst_n",
+        "register_03",
+        "register_04",
+        "register_16"
+      ],
+      "combinational_cells": 165
+    },
+    {
+      "register": "register_09",
+      "module": "recovered_register_09",
+      "path": "soft/output/registers/recovered_register_09.v",
+      "inputs": [
+        "clk",
+        "rst_n",
+        "register_05",
+        "register_06",
+        "register_07",
+        "register_08",
+        "register_10",
+        "register_11",
+        "register_13",
+        "register_14",
+        "register_15",
+        "register_16",
+        "register_17"
+      ],
+      "combinational_cells": 50
+    },
+    {
+      "register": "register_10",
+      "module": "recovered_register_10",
+      "path": "soft/output/registers/recovered_register_10.v",
+      "inputs": [
+        "I",
+        "clk",
+        "enable",
+        "rst_n",
+        "register_03",
+        "register_04",
+        "register_16"
+      ],
+      "combinational_cells": 170
+    },
+    {
+      "register": "register_11",
+      "module": "recovered_register_11",
+      "path": "soft/output/registers/recovered_register_11.v",
+      "inputs": [
+        "I",
+        "clk",
+        "enable",
+        "rst_n",
+        "register_03",
+        "register_04",
+        "register_16"
+      ],
+      "combinational_cells": 172
+    },
+    {
+      "register": "register_12",
+      "module": "recovered_register_12",
+      "path": "soft/output/registers/recovered_register_12.v",
+      "inputs": [
+        "I",
+        "clk",
+        "enable",
+        "rst_n",
+        "register_02",
+        "register_09",
+        "register_16"
+      ],
+      "combinational_cells": 45
+    },
+    {
+      "register": "register_13",
+      "module": "recovered_register_13",
+      "path": "soft/output/registers/recovered_register_13.v",
+      "inputs": [
+        "I",
+        "clk",
+        "enable",
+        "rst_n",
+        "register_03",
+        "register_16"
+      ],
+      "combinational_cells": 18
+    },
+    {
+      "register": "register_14",
+      "module": "recovered_register_14",
+      "path": "soft/output/registers/recovered_register_14.v",
+      "inputs": [
+        "I",
+        "clk",
+        "enable",
+        "rst_n",
+        "register_03",
+        "register_16"
+      ],
+      "combinational_cells": 16
+    },
+    {
+      "register": "register_15",
+      "module": "recovered_register_15",
+      "path": "soft/output/registers/recovered_register_15.v",
+      "inputs": [
+        "I",
+        "clk",
+        "enable",
+        "rst_n",
+        "register_03",
+        "register_16"
+      ],
+      "combinational_cells": 27
+    },
+    {
+      "register": "register_16",
+      "module": "recovered_register_16",
+      "path": "soft/output/registers/recovered_register_16.v",
+      "inputs": [
+        "clk",
+        "enable",
+        "rst_n",
+        "register_03",
+        "register_04"
+      ],
+      "combinational_cells": 5
+    },
+    {
+      "register": "register_17",
+      "module": "recovered_register_17",
+      "path": "soft/output/registers/recovered_register_17.v",
+      "inputs": [
+        "I",
+        "clk",
+        "enable",
+        "rst_n",
+        "register_03",
+        "register_16",
+        "shift_register"
+      ],
+      "combinational_cells": 7
+    }
+  ],
+  "top": {
+    "module": "recovered_top",
+    "path": "soft/output/recovered_top.v"
+  },
+  "block_top": {
+    "module": "recovered_block_top",
+    "path": "soft/output/recovered_block_top.v",
+    "output_logic": "soft/output/recovered_output_logic.v",
+    "register_module_directory": "soft/output/registers"
+  }
+}

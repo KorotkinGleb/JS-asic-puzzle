@@ -1,0 +1,2733 @@
+{
+  "gds": "puzzle.gds",
+  "group_report": "scripts/recovered_register_groups.json",
+  "combined_verilog": "scripts/register_groups/standalone/recovered_all_register_groups_standalone.v",
+  "dependency_policy": "no includes, PDK cells, or helper modules",
+  "groups": [
+    {
+      "group_index": 1,
+      "module": "recovered_shift_register_standalone",
+      "kind": "verified shift register",
+      "confidence": 1.0,
+      "width": 12,
+      "bit_order": [
+        5000,
+        5401,
+        5093,
+        5399,
+        5004,
+        5342,
+        4993,
+        5569,
+        5343,
+        5344,
+        5339,
+        5336
+      ],
+      "bit_order_note": "verified shift order",
+      "clock": {
+        "name": "clk",
+        "root_net": 1608
+      },
+      "source_group_ports": [],
+      "input_ports": [
+        "clk",
+        "rst_n",
+        "I",
+        "enable",
+        "ff_4182_q"
+      ],
+      "q_port": "shift_register_q",
+      "d_port": "shift_register_d",
+      "combinational_cell_count": 13,
+      "destination_bits": [
+        {
+          "bit": 0,
+          "instance_id": 5000,
+          "d_net": 1584
+        },
+        {
+          "bit": 1,
+          "instance_id": 5401,
+          "d_net": 1544
+        },
+        {
+          "bit": 2,
+          "instance_id": 5093,
+          "d_net": 1597
+        },
+        {
+          "bit": 3,
+          "instance_id": 5399,
+          "d_net": 1464
+        },
+        {
+          "bit": 4,
+          "instance_id": 5004,
+          "d_net": 1354
+        },
+        {
+          "bit": 5,
+          "instance_id": 5342,
+          "d_net": 1279
+        },
+        {
+          "bit": 6,
+          "instance_id": 4993,
+          "d_net": 1351
+        },
+        {
+          "bit": 7,
+          "instance_id": 5569,
+          "d_net": 1214
+        },
+        {
+          "bit": 8,
+          "instance_id": 5343,
+          "d_net": 1250
+        },
+        {
+          "bit": 9,
+          "instance_id": 5344,
+          "d_net": 1315
+        },
+        {
+          "bit": 10,
+          "instance_id": 5339,
+          "d_net": 1412
+        },
+        {
+          "bit": 11,
+          "instance_id": 5336,
+          "d_net": 1514
+        }
+      ],
+      "sequential_bits": [
+        {
+          "bit": 0,
+          "instance_id": 5000,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 1575,
+          "clock_path": [
+            1575,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 1,
+          "instance_id": 5401,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 1348,
+          "clock_path": [
+            1348,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 2,
+          "instance_id": 5093,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 1575,
+          "clock_path": [
+            1575,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 3,
+          "instance_id": 5399,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 1313,
+          "clock_path": [
+            1313,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 4,
+          "instance_id": 5004,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 1348,
+          "clock_path": [
+            1348,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 5,
+          "instance_id": 5342,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 1070,
+          "clock_path": [
+            1070,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 6,
+          "instance_id": 4993,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 1313,
+          "clock_path": [
+            1313,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 7,
+          "instance_id": 5569,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 1070,
+          "clock_path": [
+            1070,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 8,
+          "instance_id": 5343,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 1070,
+          "clock_path": [
+            1070,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 9,
+          "instance_id": 5344,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 1070,
+          "clock_path": [
+            1070,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 10,
+          "instance_id": 5339,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 1313,
+          "clock_path": [
+            1313,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 11,
+          "instance_id": 5336,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 1313,
+          "clock_path": [
+            1313,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        }
+      ],
+      "output": "scripts/register_groups/standalone/recovered_shift_register_standalone.v"
+    },
+    {
+      "group_index": 2,
+      "module": "recovered_register_group_02_standalone",
+      "kind": "state/counter register candidate",
+      "confidence": 0.95,
+      "width": 4,
+      "bit_order": [
+        234,
+        235,
+        236,
+        237
+      ],
+      "bit_order_note": "heuristic bit order: sorted physical instance IDs",
+      "clock": {
+        "name": "clk",
+        "root_net": 1608
+      },
+      "source_group_ports": [
+        "register_group_09_q"
+      ],
+      "input_ports": [
+        "clk",
+        "register_group_09_q"
+      ],
+      "q_port": "register_group_02_q",
+      "d_port": "register_group_02_d",
+      "combinational_cell_count": 9,
+      "destination_bits": [
+        {
+          "bit": 0,
+          "instance_id": 234,
+          "d_net": 2332
+        },
+        {
+          "bit": 1,
+          "instance_id": 235,
+          "d_net": 2388
+        },
+        {
+          "bit": 2,
+          "instance_id": 236,
+          "d_net": 2411
+        },
+        {
+          "bit": 3,
+          "instance_id": 237,
+          "d_net": 2317
+        }
+      ],
+      "sequential_bits": [
+        {
+          "bit": 0,
+          "instance_id": 234,
+          "module": "sky130_fd_sc_hd__dfxtp_2",
+          "local_clock_net": 2033,
+          "clock_path": [
+            2033,
+            695,
+            1608
+          ],
+          "controls": []
+        },
+        {
+          "bit": 1,
+          "instance_id": 235,
+          "module": "sky130_fd_sc_hd__dfxtp_2",
+          "local_clock_net": 2212,
+          "clock_path": [
+            2212,
+            695,
+            1608
+          ],
+          "controls": []
+        },
+        {
+          "bit": 2,
+          "instance_id": 236,
+          "module": "sky130_fd_sc_hd__dfxtp_2",
+          "local_clock_net": 2212,
+          "clock_path": [
+            2212,
+            695,
+            1608
+          ],
+          "controls": []
+        },
+        {
+          "bit": 3,
+          "instance_id": 237,
+          "module": "sky130_fd_sc_hd__dfxtp_2",
+          "local_clock_net": 2033,
+          "clock_path": [
+            2033,
+            695,
+            1608
+          ],
+          "controls": []
+        }
+      ],
+      "output": "scripts/register_groups/standalone/recovered_register_group_02_standalone.v"
+    },
+    {
+      "group_index": 3,
+      "module": "recovered_register_group_03_standalone",
+      "kind": "state/counter register candidate",
+      "confidence": 0.95,
+      "width": 4,
+      "bit_order": [
+        4659,
+        4661,
+        4662,
+        4838
+      ],
+      "bit_order_note": "heuristic bit order: sorted physical instance IDs",
+      "clock": {
+        "name": "clk",
+        "root_net": 1608
+      },
+      "source_group_ports": [],
+      "input_ports": [
+        "clk",
+        "rst_n",
+        "enable",
+        "ff_4182_q"
+      ],
+      "q_port": "register_group_03_q",
+      "d_port": "register_group_03_d",
+      "combinational_cell_count": 11,
+      "destination_bits": [
+        {
+          "bit": 0,
+          "instance_id": 4659,
+          "d_net": 1307
+        },
+        {
+          "bit": 1,
+          "instance_id": 4661,
+          "d_net": 1568
+        },
+        {
+          "bit": 2,
+          "instance_id": 4662,
+          "d_net": 1448
+        },
+        {
+          "bit": 3,
+          "instance_id": 4838,
+          "d_net": 1394
+        }
+      ],
+      "sequential_bits": [
+        {
+          "bit": 0,
+          "instance_id": 4659,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 1348,
+          "clock_path": [
+            1348,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 1,
+          "instance_id": 4661,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 1348,
+          "clock_path": [
+            1348,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 2,
+          "instance_id": 4662,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 1348,
+          "clock_path": [
+            1348,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 3,
+          "instance_id": 4838,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 1348,
+          "clock_path": [
+            1348,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        }
+      ],
+      "output": "scripts/register_groups/standalone/recovered_register_group_03_standalone.v"
+    },
+    {
+      "group_index": 4,
+      "module": "recovered_register_group_04_standalone",
+      "kind": "state/counter register candidate",
+      "confidence": 0.95,
+      "width": 4,
+      "bit_order": [
+        6435,
+        6436,
+        6442,
+        6451
+      ],
+      "bit_order_note": "heuristic bit order: sorted physical instance IDs",
+      "clock": {
+        "name": "clk",
+        "root_net": 1608
+      },
+      "source_group_ports": [
+        "register_group_03_q"
+      ],
+      "input_ports": [
+        "clk",
+        "rst_n",
+        "enable",
+        "ff_4182_q",
+        "register_group_03_q"
+      ],
+      "q_port": "register_group_04_q",
+      "d_port": "register_group_04_d",
+      "combinational_cell_count": 14,
+      "destination_bits": [
+        {
+          "bit": 0,
+          "instance_id": 6435,
+          "d_net": 921
+        },
+        {
+          "bit": 1,
+          "instance_id": 6436,
+          "d_net": 1059
+        },
+        {
+          "bit": 2,
+          "instance_id": 6442,
+          "d_net": 827
+        },
+        {
+          "bit": 3,
+          "instance_id": 6451,
+          "d_net": 972
+        }
+      ],
+      "sequential_bits": [
+        {
+          "bit": 0,
+          "instance_id": 6435,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 829,
+          "clock_path": [
+            829,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 1,
+          "instance_id": 6436,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 829,
+          "clock_path": [
+            829,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 2,
+          "instance_id": 6442,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 294,
+          "clock_path": [
+            294,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 3,
+          "instance_id": 6451,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 829,
+          "clock_path": [
+            829,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        }
+      ],
+      "output": "scripts/register_groups/standalone/recovered_register_group_04_standalone.v"
+    },
+    {
+      "group_index": 5,
+      "module": "recovered_register_group_05_standalone",
+      "kind": "state/counter register candidate",
+      "confidence": 0.95,
+      "width": 2,
+      "bit_order": [
+        2293,
+        2372
+      ],
+      "bit_order_note": "heuristic bit order: sorted physical instance IDs",
+      "clock": {
+        "name": "clk",
+        "root_net": 1608
+      },
+      "source_group_ports": [
+        "register_group_03_q"
+      ],
+      "input_ports": [
+        "clk",
+        "rst_n",
+        "I",
+        "enable",
+        "ff_4182_q",
+        "register_group_03_q"
+      ],
+      "q_port": "register_group_05_q",
+      "d_port": "register_group_05_d",
+      "combinational_cell_count": 6,
+      "destination_bits": [
+        {
+          "bit": 0,
+          "instance_id": 2293,
+          "d_net": 1800
+        },
+        {
+          "bit": 1,
+          "instance_id": 2372,
+          "d_net": 1752
+        }
+      ],
+      "sequential_bits": [
+        {
+          "bit": 0,
+          "instance_id": 2293,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 1575,
+          "clock_path": [
+            1575,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 1,
+          "instance_id": 2372,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 1575,
+          "clock_path": [
+            1575,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        }
+      ],
+      "output": "scripts/register_groups/standalone/recovered_register_group_05_standalone.v"
+    },
+    {
+      "group_index": 6,
+      "module": "recovered_register_group_06_standalone",
+      "kind": "state/counter register candidate",
+      "confidence": 0.933,
+      "width": 3,
+      "bit_order": [
+        5634,
+        5638,
+        5639
+      ],
+      "bit_order_note": "heuristic bit order: sorted physical instance IDs",
+      "clock": {
+        "name": "clk",
+        "root_net": 1608
+      },
+      "source_group_ports": [
+        "register_group_03_q"
+      ],
+      "input_ports": [
+        "clk",
+        "rst_n",
+        "I",
+        "enable",
+        "ff_4182_q",
+        "register_group_03_q"
+      ],
+      "q_port": "register_group_06_q",
+      "d_port": "register_group_06_d",
+      "combinational_cell_count": 13,
+      "destination_bits": [
+        {
+          "bit": 0,
+          "instance_id": 5634,
+          "d_net": 928
+        },
+        {
+          "bit": 1,
+          "instance_id": 5638,
+          "d_net": 831
+        },
+        {
+          "bit": 2,
+          "instance_id": 5639,
+          "d_net": 1007
+        }
+      ],
+      "sequential_bits": [
+        {
+          "bit": 0,
+          "instance_id": 5634,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 829,
+          "clock_path": [
+            829,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 1,
+          "instance_id": 5638,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 829,
+          "clock_path": [
+            829,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 2,
+          "instance_id": 5639,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 829,
+          "clock_path": [
+            829,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        }
+      ],
+      "output": "scripts/register_groups/standalone/recovered_register_group_06_standalone.v"
+    },
+    {
+      "group_index": 7,
+      "module": "recovered_register_group_07_standalone",
+      "kind": "state/counter register candidate",
+      "confidence": 0.918,
+      "width": 8,
+      "bit_order": [
+        6095,
+        6106,
+        6109,
+        6111,
+        6159,
+        6197,
+        6198,
+        6199
+      ],
+      "bit_order_note": "heuristic bit order: sorted physical instance IDs",
+      "clock": {
+        "name": "clk",
+        "root_net": 1608
+      },
+      "source_group_ports": [],
+      "input_ports": [
+        "clk",
+        "rst_n",
+        "I",
+        "enable",
+        "ff_4182_q"
+      ],
+      "q_port": "register_group_07_q",
+      "d_port": "register_group_07_d",
+      "combinational_cell_count": 22,
+      "destination_bits": [
+        {
+          "bit": 0,
+          "instance_id": 6095,
+          "d_net": 458
+        },
+        {
+          "bit": 1,
+          "instance_id": 6106,
+          "d_net": 263
+        },
+        {
+          "bit": 2,
+          "instance_id": 6109,
+          "d_net": 347
+        },
+        {
+          "bit": 3,
+          "instance_id": 6111,
+          "d_net": 555
+        },
+        {
+          "bit": 4,
+          "instance_id": 6159,
+          "d_net": 578
+        },
+        {
+          "bit": 5,
+          "instance_id": 6197,
+          "d_net": 384
+        },
+        {
+          "bit": 6,
+          "instance_id": 6198,
+          "d_net": 297
+        },
+        {
+          "bit": 7,
+          "instance_id": 6199,
+          "d_net": 519
+        }
+      ],
+      "sequential_bits": [
+        {
+          "bit": 0,
+          "instance_id": 6095,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 294,
+          "clock_path": [
+            294,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 1,
+          "instance_id": 6106,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 294,
+          "clock_path": [
+            294,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 2,
+          "instance_id": 6109,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 348,
+          "clock_path": [
+            348,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 3,
+          "instance_id": 6111,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 348,
+          "clock_path": [
+            348,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 4,
+          "instance_id": 6159,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 348,
+          "clock_path": [
+            348,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 5,
+          "instance_id": 6197,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 294,
+          "clock_path": [
+            294,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 6,
+          "instance_id": 6198,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 294,
+          "clock_path": [
+            294,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 7,
+          "instance_id": 6199,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 294,
+          "clock_path": [
+            294,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        }
+      ],
+      "output": "scripts/register_groups/standalone/recovered_register_group_07_standalone.v"
+    },
+    {
+      "group_index": 8,
+      "module": "recovered_register_group_08_standalone",
+      "kind": "state/counter register candidate",
+      "confidence": 0.895,
+      "width": 6,
+      "bit_order": [
+        2299,
+        2301,
+        2542,
+        2574,
+        2708,
+        2710
+      ],
+      "bit_order_note": "heuristic bit order: sorted physical instance IDs",
+      "clock": {
+        "name": "clk",
+        "root_net": 1608
+      },
+      "source_group_ports": [
+        "register_group_03_q",
+        "register_group_04_q"
+      ],
+      "input_ports": [
+        "clk",
+        "rst_n",
+        "I",
+        "enable",
+        "ff_4182_q",
+        "register_group_03_q",
+        "register_group_04_q"
+      ],
+      "q_port": "register_group_08_q",
+      "d_port": "register_group_08_d",
+      "combinational_cell_count": 165,
+      "destination_bits": [
+        {
+          "bit": 0,
+          "instance_id": 2299,
+          "d_net": 1230
+        },
+        {
+          "bit": 1,
+          "instance_id": 2301,
+          "d_net": 1368
+        },
+        {
+          "bit": 2,
+          "instance_id": 2542,
+          "d_net": 1206
+        },
+        {
+          "bit": 3,
+          "instance_id": 2574,
+          "d_net": 1420
+        },
+        {
+          "bit": 4,
+          "instance_id": 2708,
+          "d_net": 1257
+        },
+        {
+          "bit": 5,
+          "instance_id": 2710,
+          "d_net": 1166
+        }
+      ],
+      "sequential_bits": [
+        {
+          "bit": 0,
+          "instance_id": 2299,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 1265,
+          "clock_path": [
+            1265,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 1,
+          "instance_id": 2301,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 1265,
+          "clock_path": [
+            1265,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 2,
+          "instance_id": 2542,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 1265,
+          "clock_path": [
+            1265,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 3,
+          "instance_id": 2574,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 1575,
+          "clock_path": [
+            1575,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 4,
+          "instance_id": 2708,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 1265,
+          "clock_path": [
+            1265,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 5,
+          "instance_id": 2710,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 1265,
+          "clock_path": [
+            1265,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        }
+      ],
+      "output": "scripts/register_groups/standalone/recovered_register_group_08_standalone.v"
+    },
+    {
+      "group_index": 9,
+      "module": "recovered_register_group_09_standalone",
+      "kind": "decoded state/register vector",
+      "confidence": 0.847,
+      "width": 3,
+      "bit_order": [
+        226,
+        227,
+        228
+      ],
+      "bit_order_note": "heuristic bit order: sorted physical instance IDs",
+      "clock": {
+        "name": "clk",
+        "root_net": 1608
+      },
+      "source_group_ports": [
+        "register_group_05_q",
+        "register_group_06_q",
+        "register_group_07_q",
+        "register_group_08_q",
+        "register_group_10_q",
+        "register_group_11_q",
+        "register_group_13_q",
+        "register_group_14_q",
+        "register_group_15_q"
+      ],
+      "input_ports": [
+        "clk",
+        "rst_n",
+        "ff_4182_q",
+        "ff_5337_q",
+        "register_group_05_q",
+        "register_group_06_q",
+        "register_group_07_q",
+        "register_group_08_q",
+        "register_group_10_q",
+        "register_group_11_q",
+        "register_group_13_q",
+        "register_group_14_q",
+        "register_group_15_q"
+      ],
+      "q_port": "register_group_09_q",
+      "d_port": "register_group_09_d",
+      "combinational_cell_count": 50,
+      "destination_bits": [
+        {
+          "bit": 0,
+          "instance_id": 226,
+          "d_net": 2564
+        },
+        {
+          "bit": 1,
+          "instance_id": 227,
+          "d_net": 2501
+        },
+        {
+          "bit": 2,
+          "instance_id": 228,
+          "d_net": 2543
+        }
+      ],
+      "sequential_bits": [
+        {
+          "bit": 0,
+          "instance_id": 226,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 2212,
+          "clock_path": [
+            2212,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 1,
+          "instance_id": 227,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 2212,
+          "clock_path": [
+            2212,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 2,
+          "instance_id": 228,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 2212,
+          "clock_path": [
+            2212,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        }
+      ],
+      "output": "scripts/register_groups/standalone/recovered_register_group_09_standalone.v"
+    },
+    {
+      "group_index": 10,
+      "module": "recovered_register_group_10_standalone",
+      "kind": "state/counter register candidate",
+      "confidence": 0.844,
+      "width": 8,
+      "bit_order": [
+        2709,
+        8085,
+        8086,
+        8090,
+        8091,
+        8199,
+        8214,
+        8219
+      ],
+      "bit_order_note": "heuristic bit order: sorted physical instance IDs",
+      "clock": {
+        "name": "clk",
+        "root_net": 1608
+      },
+      "source_group_ports": [
+        "register_group_03_q",
+        "register_group_04_q"
+      ],
+      "input_ports": [
+        "clk",
+        "rst_n",
+        "I",
+        "enable",
+        "ff_4182_q",
+        "register_group_03_q",
+        "register_group_04_q"
+      ],
+      "q_port": "register_group_10_q",
+      "d_port": "register_group_10_d",
+      "combinational_cell_count": 170,
+      "destination_bits": [
+        {
+          "bit": 0,
+          "instance_id": 2709,
+          "d_net": 1132
+        },
+        {
+          "bit": 1,
+          "instance_id": 8085,
+          "d_net": 840
+        },
+        {
+          "bit": 2,
+          "instance_id": 8086,
+          "d_net": 1039
+        },
+        {
+          "bit": 3,
+          "instance_id": 8090,
+          "d_net": 892
+        },
+        {
+          "bit": 4,
+          "instance_id": 8091,
+          "d_net": 1109
+        },
+        {
+          "bit": 5,
+          "instance_id": 8199,
+          "d_net": 857
+        },
+        {
+          "bit": 6,
+          "instance_id": 8214,
+          "d_net": 939
+        },
+        {
+          "bit": 7,
+          "instance_id": 8219,
+          "d_net": 1015
+        }
+      ],
+      "sequential_bits": [
+        {
+          "bit": 0,
+          "instance_id": 2709,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 1070,
+          "clock_path": [
+            1070,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 1,
+          "instance_id": 8085,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 493,
+          "clock_path": [
+            493,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 2,
+          "instance_id": 8086,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 797,
+          "clock_path": [
+            797,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 3,
+          "instance_id": 8090,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 797,
+          "clock_path": [
+            797,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 4,
+          "instance_id": 8091,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 1070,
+          "clock_path": [
+            1070,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 5,
+          "instance_id": 8199,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 797,
+          "clock_path": [
+            797,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 6,
+          "instance_id": 8214,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 797,
+          "clock_path": [
+            797,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 7,
+          "instance_id": 8219,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 797,
+          "clock_path": [
+            797,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        }
+      ],
+      "output": "scripts/register_groups/standalone/recovered_register_group_10_standalone.v"
+    },
+    {
+      "group_index": 11,
+      "module": "recovered_register_group_11_standalone",
+      "kind": "state/counter register candidate",
+      "confidence": 0.83,
+      "width": 8,
+      "bit_order": [
+        8084,
+        8092,
+        8095,
+        8429,
+        8431,
+        8591,
+        8602,
+        8815
+      ],
+      "bit_order_note": "heuristic bit order: sorted physical instance IDs",
+      "clock": {
+        "name": "clk",
+        "root_net": 1608
+      },
+      "source_group_ports": [
+        "register_group_03_q",
+        "register_group_04_q"
+      ],
+      "input_ports": [
+        "clk",
+        "rst_n",
+        "I",
+        "enable",
+        "ff_4182_q",
+        "register_group_03_q",
+        "register_group_04_q"
+      ],
+      "q_port": "register_group_11_q",
+      "d_port": "register_group_11_d",
+      "combinational_cell_count": 172,
+      "destination_bits": [
+        {
+          "bit": 0,
+          "instance_id": 8084,
+          "d_net": 440
+        },
+        {
+          "bit": 1,
+          "instance_id": 8092,
+          "d_net": 660
+        },
+        {
+          "bit": 2,
+          "instance_id": 8095,
+          "d_net": 677
+        },
+        {
+          "bit": 3,
+          "instance_id": 8429,
+          "d_net": 734
+        },
+        {
+          "bit": 4,
+          "instance_id": 8431,
+          "d_net": 700
+        },
+        {
+          "bit": 5,
+          "instance_id": 8591,
+          "d_net": 646
+        },
+        {
+          "bit": 6,
+          "instance_id": 8602,
+          "d_net": 663
+        },
+        {
+          "bit": 7,
+          "instance_id": 8815,
+          "d_net": 522
+        }
+      ],
+      "sequential_bits": [
+        {
+          "bit": 0,
+          "instance_id": 8084,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 493,
+          "clock_path": [
+            493,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 1,
+          "instance_id": 8092,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 493,
+          "clock_path": [
+            493,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 2,
+          "instance_id": 8095,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 348,
+          "clock_path": [
+            348,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 3,
+          "instance_id": 8429,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 348,
+          "clock_path": [
+            348,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 4,
+          "instance_id": 8431,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 493,
+          "clock_path": [
+            493,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 5,
+          "instance_id": 8591,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 348,
+          "clock_path": [
+            348,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 6,
+          "instance_id": 8602,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 493,
+          "clock_path": [
+            493,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 7,
+          "instance_id": 8815,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 493,
+          "clock_path": [
+            493,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        }
+      ],
+      "output": "scripts/register_groups/standalone/recovered_register_group_11_standalone.v"
+    },
+    {
+      "group_index": 12,
+      "module": "recovered_register_group_12_standalone",
+      "kind": "state/counter register candidate",
+      "confidence": 0.819,
+      "width": 8,
+      "bit_order": [
+        2944,
+        2946,
+        2947,
+        2948,
+        2957,
+        2958,
+        2959,
+        2960
+      ],
+      "bit_order_note": "heuristic bit order: sorted physical instance IDs",
+      "clock": {
+        "name": "clk",
+        "root_net": 1608
+      },
+      "source_group_ports": [
+        "register_group_02_q",
+        "register_group_09_q"
+      ],
+      "input_ports": [
+        "clk",
+        "rst_n",
+        "I",
+        "enable",
+        "ff_4182_q",
+        "register_group_02_q",
+        "register_group_09_q"
+      ],
+      "q_port": "register_group_12_q",
+      "d_port": "register_group_12_d",
+      "combinational_cell_count": 45,
+      "destination_bits": [
+        {
+          "bit": 0,
+          "instance_id": 2944,
+          "d_net": 1913
+        },
+        {
+          "bit": 1,
+          "instance_id": 2946,
+          "d_net": 1927
+        },
+        {
+          "bit": 2,
+          "instance_id": 2947,
+          "d_net": 1713
+        },
+        {
+          "bit": 3,
+          "instance_id": 2948,
+          "d_net": 1767
+        },
+        {
+          "bit": 4,
+          "instance_id": 2957,
+          "d_net": 1850
+        },
+        {
+          "bit": 5,
+          "instance_id": 2958,
+          "d_net": 1851
+        },
+        {
+          "bit": 6,
+          "instance_id": 2959,
+          "d_net": 1844
+        },
+        {
+          "bit": 7,
+          "instance_id": 2960,
+          "d_net": 1730
+        }
+      ],
+      "sequential_bits": [
+        {
+          "bit": 0,
+          "instance_id": 2944,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 1712,
+          "clock_path": [
+            1712,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 1,
+          "instance_id": 2946,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 1712,
+          "clock_path": [
+            1712,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 2,
+          "instance_id": 2947,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 1265,
+          "clock_path": [
+            1265,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 3,
+          "instance_id": 2948,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 1712,
+          "clock_path": [
+            1712,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 4,
+          "instance_id": 2957,
+          "module": "sky130_fd_sc_hd__dfstp_2",
+          "local_clock_net": 1712,
+          "clock_path": [
+            1712,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "SET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b1"
+            }
+          ]
+        },
+        {
+          "bit": 5,
+          "instance_id": 2958,
+          "module": "sky130_fd_sc_hd__dfstp_2",
+          "local_clock_net": 1712,
+          "clock_path": [
+            1712,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "SET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b1"
+            }
+          ]
+        },
+        {
+          "bit": 6,
+          "instance_id": 2959,
+          "module": "sky130_fd_sc_hd__dfstp_2",
+          "local_clock_net": 2033,
+          "clock_path": [
+            2033,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "SET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b1"
+            }
+          ]
+        },
+        {
+          "bit": 7,
+          "instance_id": 2960,
+          "module": "sky130_fd_sc_hd__dfstp_2",
+          "local_clock_net": 1712,
+          "clock_path": [
+            1712,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "SET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b1"
+            }
+          ]
+        }
+      ],
+      "output": "scripts/register_groups/standalone/recovered_register_group_12_standalone.v"
+    },
+    {
+      "group_index": 13,
+      "module": "recovered_register_group_13_standalone",
+      "kind": "state/counter register candidate",
+      "confidence": 0.797,
+      "width": 6,
+      "bit_order": [
+        1259,
+        1260,
+        1261,
+        1383,
+        1384,
+        1385
+      ],
+      "bit_order_note": "heuristic bit order: sorted physical instance IDs",
+      "clock": {
+        "name": "clk",
+        "root_net": 1608
+      },
+      "source_group_ports": [
+        "register_group_03_q"
+      ],
+      "input_ports": [
+        "clk",
+        "rst_n",
+        "I",
+        "enable",
+        "ff_4182_q",
+        "register_group_03_q"
+      ],
+      "q_port": "register_group_13_q",
+      "d_port": "register_group_13_d",
+      "combinational_cell_count": 18,
+      "destination_bits": [
+        {
+          "bit": 0,
+          "instance_id": 1259,
+          "d_net": 2531
+        },
+        {
+          "bit": 1,
+          "instance_id": 1260,
+          "d_net": 2583
+        },
+        {
+          "bit": 2,
+          "instance_id": 1261,
+          "d_net": 2557
+        },
+        {
+          "bit": 3,
+          "instance_id": 1383,
+          "d_net": 2489
+        },
+        {
+          "bit": 4,
+          "instance_id": 1384,
+          "d_net": 2510
+        },
+        {
+          "bit": 5,
+          "instance_id": 1385,
+          "d_net": 2582
+        }
+      ],
+      "sequential_bits": [
+        {
+          "bit": 0,
+          "instance_id": 1259,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 2322,
+          "clock_path": [
+            2322,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 1,
+          "instance_id": 1260,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 2322,
+          "clock_path": [
+            2322,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 2,
+          "instance_id": 1261,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 2322,
+          "clock_path": [
+            2322,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 3,
+          "instance_id": 1383,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 2322,
+          "clock_path": [
+            2322,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 4,
+          "instance_id": 1384,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 2296,
+          "clock_path": [
+            2296,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 5,
+          "instance_id": 1385,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 2296,
+          "clock_path": [
+            2296,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        }
+      ],
+      "output": "scripts/register_groups/standalone/recovered_register_group_13_standalone.v"
+    },
+    {
+      "group_index": 14,
+      "module": "recovered_register_group_14_standalone",
+      "kind": "state/counter register candidate",
+      "confidence": 0.793,
+      "width": 6,
+      "bit_order": [
+        1228,
+        1230,
+        1258,
+        1626,
+        1808,
+        1810
+      ],
+      "bit_order_note": "heuristic bit order: sorted physical instance IDs",
+      "clock": {
+        "name": "clk",
+        "root_net": 1608
+      },
+      "source_group_ports": [
+        "register_group_03_q"
+      ],
+      "input_ports": [
+        "clk",
+        "rst_n",
+        "I",
+        "enable",
+        "ff_4182_q",
+        "register_group_03_q"
+      ],
+      "q_port": "register_group_14_q",
+      "d_port": "register_group_14_d",
+      "combinational_cell_count": 16,
+      "destination_bits": [
+        {
+          "bit": 0,
+          "instance_id": 1228,
+          "d_net": 2307
+        },
+        {
+          "bit": 1,
+          "instance_id": 1230,
+          "d_net": 2354
+        },
+        {
+          "bit": 2,
+          "instance_id": 1258,
+          "d_net": 2438
+        },
+        {
+          "bit": 3,
+          "instance_id": 1626,
+          "d_net": 2464
+        },
+        {
+          "bit": 4,
+          "instance_id": 1808,
+          "d_net": 2274
+        },
+        {
+          "bit": 5,
+          "instance_id": 1810,
+          "d_net": 2345
+        }
+      ],
+      "sequential_bits": [
+        {
+          "bit": 0,
+          "instance_id": 1228,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 2023,
+          "clock_path": [
+            2023,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 1,
+          "instance_id": 1230,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 2296,
+          "clock_path": [
+            2296,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 2,
+          "instance_id": 1258,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 2296,
+          "clock_path": [
+            2296,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 3,
+          "instance_id": 1626,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 2322,
+          "clock_path": [
+            2322,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 4,
+          "instance_id": 1808,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 2296,
+          "clock_path": [
+            2296,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 5,
+          "instance_id": 1810,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 2322,
+          "clock_path": [
+            2322,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        }
+      ],
+      "output": "scripts/register_groups/standalone/recovered_register_group_14_standalone.v"
+    },
+    {
+      "group_index": 15,
+      "module": "recovered_register_group_15_standalone",
+      "kind": "state/counter register candidate",
+      "confidence": 0.756,
+      "width": 8,
+      "bit_order": [
+        1229,
+        1249,
+        1250,
+        1264,
+        1809,
+        2036,
+        2037,
+        2039
+      ],
+      "bit_order_note": "heuristic bit order: sorted physical instance IDs",
+      "clock": {
+        "name": "clk",
+        "root_net": 1608
+      },
+      "source_group_ports": [
+        "register_group_03_q"
+      ],
+      "input_ports": [
+        "clk",
+        "rst_n",
+        "I",
+        "enable",
+        "ff_4182_q",
+        "register_group_03_q"
+      ],
+      "q_port": "register_group_15_q",
+      "d_port": "register_group_15_d",
+      "combinational_cell_count": 27,
+      "destination_bits": [
+        {
+          "bit": 0,
+          "instance_id": 1229,
+          "d_net": 2240
+        },
+        {
+          "bit": 1,
+          "instance_id": 1249,
+          "d_net": 2075
+        },
+        {
+          "bit": 2,
+          "instance_id": 1250,
+          "d_net": 1997
+        },
+        {
+          "bit": 3,
+          "instance_id": 1264,
+          "d_net": 2160
+        },
+        {
+          "bit": 4,
+          "instance_id": 1809,
+          "d_net": 2243
+        },
+        {
+          "bit": 5,
+          "instance_id": 2036,
+          "d_net": 2132
+        },
+        {
+          "bit": 6,
+          "instance_id": 2037,
+          "d_net": 2097
+        },
+        {
+          "bit": 7,
+          "instance_id": 2039,
+          "d_net": 2011
+        }
+      ],
+      "sequential_bits": [
+        {
+          "bit": 0,
+          "instance_id": 1229,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 2023,
+          "clock_path": [
+            2023,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 1,
+          "instance_id": 1249,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 2023,
+          "clock_path": [
+            2023,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 2,
+          "instance_id": 1250,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 2033,
+          "clock_path": [
+            2033,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 3,
+          "instance_id": 1264,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 2023,
+          "clock_path": [
+            2023,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 4,
+          "instance_id": 1809,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 2023,
+          "clock_path": [
+            2023,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 5,
+          "instance_id": 2036,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 2023,
+          "clock_path": [
+            2023,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 6,
+          "instance_id": 2037,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 2033,
+          "clock_path": [
+            2033,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        },
+        {
+          "bit": 7,
+          "instance_id": 2039,
+          "module": "sky130_fd_sc_hd__dfrtp_2",
+          "local_clock_net": 2033,
+          "clock_path": [
+            2033,
+            695,
+            1608
+          ],
+          "controls": [
+            {
+              "pin": "RESET_B",
+              "signal": "rst_n",
+              "edge": "negedge",
+              "value": "1'b0"
+            }
+          ]
+        }
+      ],
+      "output": "scripts/register_groups/standalone/recovered_register_group_15_standalone.v"
+    }
+  ]
+}

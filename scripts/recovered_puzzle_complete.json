@@ -1,0 +1,1208 @@
+{
+  "gds": "puzzle.gds",
+  "top_module": "puzzle",
+  "functional_cells": 728,
+  "combinational_cells": 636,
+  "sequential_cells": 92,
+  "top_inputs": {
+    "rst_n": 322,
+    "I": 520,
+    "enable": 1186,
+    "clk": 1608
+  },
+  "top_outputs": {
+    "O[0]": 2363,
+    "O[1]": 1697,
+    "O[2]": 1474,
+    "O[3]": 1155,
+    "O[4]": 1862,
+    "O[5]": 673,
+    "O[6]": 627,
+    "O[7]": 2361,
+    "success": 2380
+  },
+  "undriven_nets": [
+    806
+  ],
+  "selected_ties": {
+    "806": "x"
+  },
+  "sequential_instances": [
+    {
+      "instance_id": 226,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 2564,
+      "q_net": 2329,
+      "clock_net": 2212,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 227,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 2501,
+      "q_net": 2403,
+      "clock_net": 2212,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 228,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 2543,
+      "q_net": 2380,
+      "clock_net": 2212,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 234,
+      "module": "sky130_fd_sc_hd__dfxtp_2",
+      "d_net": 2332,
+      "q_net": 751,
+      "clock_net": 2033,
+      "controls": []
+    },
+    {
+      "instance_id": 235,
+      "module": "sky130_fd_sc_hd__dfxtp_2",
+      "d_net": 2388,
+      "q_net": 762,
+      "clock_net": 2212,
+      "controls": []
+    },
+    {
+      "instance_id": 236,
+      "module": "sky130_fd_sc_hd__dfxtp_2",
+      "d_net": 2411,
+      "q_net": 749,
+      "clock_net": 2212,
+      "controls": []
+    },
+    {
+      "instance_id": 237,
+      "module": "sky130_fd_sc_hd__dfxtp_2",
+      "d_net": 2317,
+      "q_net": 848,
+      "clock_net": 2033,
+      "controls": []
+    },
+    {
+      "instance_id": 1228,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 2307,
+      "q_net": 2276,
+      "clock_net": 2023,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 1229,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 2240,
+      "q_net": 2226,
+      "clock_net": 2023,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 1230,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 2354,
+      "q_net": 2347,
+      "clock_net": 2296,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 1249,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 2075,
+      "q_net": 2101,
+      "clock_net": 2023,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 1250,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1997,
+      "q_net": 1996,
+      "clock_net": 2033,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 1258,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 2438,
+      "q_net": 2443,
+      "clock_net": 2296,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 1259,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 2531,
+      "q_net": 2532,
+      "clock_net": 2322,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 1260,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 2583,
+      "q_net": 2581,
+      "clock_net": 2322,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 1261,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 2557,
+      "q_net": 2512,
+      "clock_net": 2322,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 1264,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 2160,
+      "q_net": 2157,
+      "clock_net": 2023,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 1383,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 2489,
+      "q_net": 2493,
+      "clock_net": 2322,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 1384,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 2510,
+      "q_net": 2511,
+      "clock_net": 2296,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 1385,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 2582,
+      "q_net": 2579,
+      "clock_net": 2296,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 1626,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 2464,
+      "q_net": 2442,
+      "clock_net": 2322,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 1808,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 2274,
+      "q_net": 2273,
+      "clock_net": 2296,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 1809,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 2243,
+      "q_net": 2241,
+      "clock_net": 2023,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 1810,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 2345,
+      "q_net": 2346,
+      "clock_net": 2322,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 2036,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 2132,
+      "q_net": 2155,
+      "clock_net": 2023,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 2037,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 2097,
+      "q_net": 2069,
+      "clock_net": 2033,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 2039,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 2011,
+      "q_net": 1998,
+      "clock_net": 2033,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 2293,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1800,
+      "q_net": 1805,
+      "clock_net": 1575,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 2299,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1230,
+      "q_net": 1193,
+      "clock_net": 1265,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 2301,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1368,
+      "q_net": 1379,
+      "clock_net": 1265,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 2372,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1752,
+      "q_net": 1797,
+      "clock_net": 1575,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 2542,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1206,
+      "q_net": 1187,
+      "clock_net": 1265,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 2574,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1420,
+      "q_net": 1325,
+      "clock_net": 1575,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 2708,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1257,
+      "q_net": 1165,
+      "clock_net": 1265,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 2709,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1132,
+      "q_net": 1129,
+      "clock_net": 1070,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 2710,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1166,
+      "q_net": 1164,
+      "clock_net": 1265,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 2944,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1913,
+      "q_net": 1950,
+      "clock_net": 1712,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 2946,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1927,
+      "q_net": 1812,
+      "clock_net": 1712,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 2947,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1713,
+      "q_net": 1715,
+      "clock_net": 1265,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 2948,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1767,
+      "q_net": 1763,
+      "clock_net": 1712,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 2957,
+      "module": "sky130_fd_sc_hd__dfstp_2",
+      "d_net": 1850,
+      "q_net": 1806,
+      "clock_net": 1712,
+      "controls": [
+        {
+          "pin": "SET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 2958,
+      "module": "sky130_fd_sc_hd__dfstp_2",
+      "d_net": 1851,
+      "q_net": 1813,
+      "clock_net": 1712,
+      "controls": [
+        {
+          "pin": "SET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 2959,
+      "module": "sky130_fd_sc_hd__dfstp_2",
+      "d_net": 1844,
+      "q_net": 1675,
+      "clock_net": 2033,
+      "controls": [
+        {
+          "pin": "SET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 2960,
+      "module": "sky130_fd_sc_hd__dfstp_2",
+      "d_net": 1730,
+      "q_net": 1740,
+      "clock_net": 1712,
+      "controls": [
+        {
+          "pin": "SET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 4182,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 2007,
+      "q_net": 1968,
+      "clock_net": 1575,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 4659,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1307,
+      "q_net": 1001,
+      "clock_net": 1348,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 4661,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1568,
+      "q_net": 547,
+      "clock_net": 1348,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 4662,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1448,
+      "q_net": 169,
+      "clock_net": 1348,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 4838,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1394,
+      "q_net": 114,
+      "clock_net": 1348,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 4993,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1351,
+      "q_net": 1309,
+      "clock_net": 1313,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 5000,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1584,
+      "q_net": 1577,
+      "clock_net": 1575,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 5004,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1354,
+      "q_net": 1402,
+      "clock_net": 1348,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 5093,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1597,
+      "q_net": 1596,
+      "clock_net": 1575,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 5336,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1514,
+      "q_net": 1512,
+      "clock_net": 1313,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 5337,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1466,
+      "q_net": 1360,
+      "clock_net": 1313,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 5339,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1412,
+      "q_net": 1358,
+      "clock_net": 1313,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 5342,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1279,
+      "q_net": 1349,
+      "clock_net": 1070,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 5343,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1250,
+      "q_net": 1248,
+      "clock_net": 1070,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 5344,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1315,
+      "q_net": 1308,
+      "clock_net": 1070,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 5399,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1464,
+      "q_net": 1458,
+      "clock_net": 1313,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 5401,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1544,
+      "q_net": 1547,
+      "clock_net": 1348,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 5569,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1214,
+      "q_net": 1212,
+      "clock_net": 1070,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 5634,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 928,
+      "q_net": 974,
+      "clock_net": 829,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 5638,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 831,
+      "q_net": 828,
+      "clock_net": 829,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 5639,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1007,
+      "q_net": 1006,
+      "clock_net": 829,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 6095,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 458,
+      "q_net": 433,
+      "clock_net": 294,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 6106,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 263,
+      "q_net": 342,
+      "clock_net": 294,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 6109,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 347,
+      "q_net": 338,
+      "clock_net": 348,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 6111,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 555,
+      "q_net": 603,
+      "clock_net": 348,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 6159,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 578,
+      "q_net": 534,
+      "clock_net": 348,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 6197,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 384,
+      "q_net": 415,
+      "clock_net": 294,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 6198,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 297,
+      "q_net": 339,
+      "clock_net": 294,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 6199,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 519,
+      "q_net": 484,
+      "clock_net": 294,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 6435,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 921,
+      "q_net": 206,
+      "clock_net": 829,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 6436,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1059,
+      "q_net": 173,
+      "clock_net": 829,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 6442,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 827,
+      "q_net": 171,
+      "clock_net": 294,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 6451,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 972,
+      "q_net": 205,
+      "clock_net": 829,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 8084,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 440,
+      "q_net": 492,
+      "clock_net": 493,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 8085,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 840,
+      "q_net": 837,
+      "clock_net": 493,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 8086,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1039,
+      "q_net": 1012,
+      "clock_net": 797,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 8090,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 892,
+      "q_net": 942,
+      "clock_net": 797,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 8091,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1109,
+      "q_net": 1110,
+      "clock_net": 1070,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 8092,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 660,
+      "q_net": 657,
+      "clock_net": 493,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 8095,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 677,
+      "q_net": 707,
+      "clock_net": 348,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 8199,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 857,
+      "q_net": 839,
+      "clock_net": 797,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 8214,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 939,
+      "q_net": 796,
+      "clock_net": 797,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 8219,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 1015,
+      "q_net": 1031,
+      "clock_net": 797,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 8429,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 734,
+      "q_net": 717,
+      "clock_net": 348,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 8431,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 700,
+      "q_net": 698,
+      "clock_net": 493,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 8591,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 646,
+      "q_net": 636,
+      "clock_net": 348,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 8602,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 663,
+      "q_net": 658,
+      "clock_net": 493,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    },
+    {
+      "instance_id": 8815,
+      "module": "sky130_fd_sc_hd__dfrtp_2",
+      "d_net": 522,
+      "q_net": 582,
+      "clock_net": 493,
+      "controls": [
+        {
+          "pin": "RESET_B",
+          "signal": "rst_n"
+        }
+      ]
+    }
+  ]
+}

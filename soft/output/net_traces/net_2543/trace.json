@@ -1,0 +1,1067 @@
+{
+  "schema_version": 1,
+  "root_nets": [
+    2543
+  ],
+  "combinational_ids": [
+    233,
+    406,
+    450,
+    460,
+    1262,
+    1376,
+    1425,
+    1560,
+    1591,
+    1630,
+    1775,
+    1776,
+    1794,
+    1968,
+    1982,
+    2012,
+    2013,
+    2107,
+    2364,
+    2555,
+    2561,
+    2571,
+    2711,
+    2843,
+    5010,
+    5013,
+    5225,
+    5230,
+    5532,
+    5612,
+    5616,
+    5836,
+    6298,
+    6802,
+    6806,
+    6809,
+    6822,
+    8106,
+    8197,
+    8218,
+    8290,
+    8325,
+    8367,
+    8408,
+    8575,
+    8590,
+    8660
+  ],
+  "sequential_boundary_ids": [
+    226,
+    228,
+    1228,
+    1229,
+    1230,
+    1249,
+    1250,
+    1258,
+    1259,
+    1260,
+    1261,
+    1264,
+    1383,
+    1384,
+    1385,
+    1626,
+    1808,
+    1809,
+    1810,
+    2036,
+    2037,
+    2039,
+    2293,
+    2299,
+    2301,
+    2372,
+    2542,
+    2574,
+    2708,
+    2709,
+    2710,
+    4182,
+    5337,
+    5638,
+    6095,
+    6106,
+    6109,
+    6111,
+    6159,
+    6197,
+    6198,
+    6199,
+    8084,
+    8085,
+    8086,
+    8090,
+    8091,
+    8092,
+    8095,
+    8199,
+    8214,
+    8219,
+    8429,
+    8431,
+    8591,
+    8602,
+    8815
+  ],
+  "boundary_input_nets": [],
+  "constant_nets": [],
+  "edges": [
+    {
+      "input_net": 102,
+      "output_net": 126,
+      "instance_id": 6806,
+      "input_pin": "D",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 104,
+      "output_net": 126,
+      "instance_id": 6806,
+      "input_pin": "C",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 105,
+      "output_net": 126,
+      "instance_id": 6806,
+      "input_pin": "A",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 126,
+      "output_net": 164,
+      "instance_id": 6802,
+      "input_pin": "A",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 127,
+      "output_net": 126,
+      "instance_id": 6806,
+      "input_pin": "B",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 160,
+      "output_net": 192,
+      "instance_id": 6809,
+      "input_pin": "B",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 161,
+      "output_net": 192,
+      "instance_id": 6809,
+      "input_pin": "C",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 163,
+      "output_net": 192,
+      "instance_id": 6809,
+      "input_pin": "A",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 164,
+      "output_net": 2542,
+      "instance_id": 450,
+      "input_pin": "C",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 165,
+      "output_net": 164,
+      "instance_id": 6802,
+      "input_pin": "B",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 168,
+      "output_net": 165,
+      "instance_id": 6822,
+      "input_pin": "A",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 192,
+      "output_net": 164,
+      "instance_id": 6802,
+      "input_pin": "C",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 193,
+      "output_net": 165,
+      "instance_id": 6822,
+      "input_pin": "D",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 194,
+      "output_net": 165,
+      "instance_id": 6822,
+      "input_pin": "C",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 195,
+      "output_net": 165,
+      "instance_id": 6822,
+      "input_pin": "B",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 338,
+      "output_net": 367,
+      "instance_id": 6298,
+      "input_pin": "A",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 339,
+      "output_net": 367,
+      "instance_id": 6298,
+      "input_pin": "C",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 340,
+      "output_net": 367,
+      "instance_id": 6298,
+      "input_pin": "D",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 342,
+      "output_net": 367,
+      "instance_id": 6298,
+      "input_pin": "B",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 367,
+      "output_net": 2487,
+      "instance_id": 460,
+      "input_pin": "B",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 415,
+      "output_net": 340,
+      "instance_id": 5616,
+      "input_pin": "A",
+      "output_pin": "Y"
+    },
+    {
+      "input_net": 433,
+      "output_net": 480,
+      "instance_id": 5612,
+      "input_pin": "B",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 480,
+      "output_net": 340,
+      "instance_id": 5616,
+      "input_pin": "C",
+      "output_pin": "Y"
+    },
+    {
+      "input_net": 484,
+      "output_net": 340,
+      "instance_id": 5616,
+      "input_pin": "B",
+      "output_pin": "Y"
+    },
+    {
+      "input_net": 492,
+      "output_net": 195,
+      "instance_id": 8590,
+      "input_pin": "B",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 534,
+      "output_net": 480,
+      "instance_id": 5612,
+      "input_pin": "C",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 582,
+      "output_net": 195,
+      "instance_id": 8590,
+      "input_pin": "A_N",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 603,
+      "output_net": 480,
+      "instance_id": 5612,
+      "input_pin": "A",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 635,
+      "output_net": 168,
+      "instance_id": 8575,
+      "input_pin": "B",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 636,
+      "output_net": 168,
+      "instance_id": 8575,
+      "input_pin": "A",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 657,
+      "output_net": 699,
+      "instance_id": 8106,
+      "input_pin": "A",
+      "output_pin": "Y"
+    },
+    {
+      "input_net": 658,
+      "output_net": 635,
+      "instance_id": 8660,
+      "input_pin": "A",
+      "output_pin": "Y"
+    },
+    {
+      "input_net": 698,
+      "output_net": 193,
+      "instance_id": 8197,
+      "input_pin": "A",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 699,
+      "output_net": 193,
+      "instance_id": 8197,
+      "input_pin": "B",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 707,
+      "output_net": 194,
+      "instance_id": 8408,
+      "input_pin": "A_N",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 717,
+      "output_net": 194,
+      "instance_id": 8408,
+      "input_pin": "B",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 796,
+      "output_net": 105,
+      "instance_id": 8325,
+      "input_pin": "A_N",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 828,
+      "output_net": 855,
+      "instance_id": 5836,
+      "input_pin": "A",
+      "output_pin": "Y"
+    },
+    {
+      "input_net": 837,
+      "output_net": 127,
+      "instance_id": 8367,
+      "input_pin": "A",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 839,
+      "output_net": 938,
+      "instance_id": 8290,
+      "input_pin": "A",
+      "output_pin": "Y"
+    },
+    {
+      "input_net": 855,
+      "output_net": 2487,
+      "instance_id": 460,
+      "input_pin": "A",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 938,
+      "output_net": 127,
+      "instance_id": 8367,
+      "input_pin": "B",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 942,
+      "output_net": 105,
+      "instance_id": 8325,
+      "input_pin": "B",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 1012,
+      "output_net": 102,
+      "instance_id": 8218,
+      "input_pin": "B",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 1031,
+      "output_net": 102,
+      "instance_id": 8218,
+      "input_pin": "A_N",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 1110,
+      "output_net": 104,
+      "instance_id": 2843,
+      "input_pin": "B",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 1129,
+      "output_net": 104,
+      "instance_id": 2843,
+      "input_pin": "A_N",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 1163,
+      "output_net": 160,
+      "instance_id": 2561,
+      "input_pin": "B",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 1164,
+      "output_net": 160,
+      "instance_id": 2561,
+      "input_pin": "A",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 1165,
+      "output_net": 1163,
+      "instance_id": 2711,
+      "input_pin": "A",
+      "output_pin": "Y"
+    },
+    {
+      "input_net": 1187,
+      "output_net": 163,
+      "instance_id": 2555,
+      "input_pin": "A_N",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 1193,
+      "output_net": 163,
+      "instance_id": 2555,
+      "input_pin": "B",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 1325,
+      "output_net": 161,
+      "instance_id": 2571,
+      "input_pin": "A_N",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 1360,
+      "output_net": 1361,
+      "instance_id": 5532,
+      "input_pin": "A",
+      "output_pin": "Y"
+    },
+    {
+      "input_net": 1361,
+      "output_net": 2543,
+      "instance_id": 233,
+      "input_pin": "A1",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 1379,
+      "output_net": 161,
+      "instance_id": 2571,
+      "input_pin": "B",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 1500,
+      "output_net": 1573,
+      "instance_id": 5013,
+      "input_pin": "C",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 1501,
+      "output_net": 1500,
+      "instance_id": 5230,
+      "input_pin": "C",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 1502,
+      "output_net": 1500,
+      "instance_id": 5230,
+      "input_pin": "B",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 1504,
+      "output_net": 1506,
+      "instance_id": 5225,
+      "input_pin": "B",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 1505,
+      "output_net": 1500,
+      "instance_id": 5230,
+      "input_pin": "A",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 1506,
+      "output_net": 1573,
+      "instance_id": 5013,
+      "input_pin": "A",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 1507,
+      "output_net": 1506,
+      "instance_id": 5225,
+      "input_pin": "D",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 1509,
+      "output_net": 1506,
+      "instance_id": 5225,
+      "input_pin": "C",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 1510,
+      "output_net": 1506,
+      "instance_id": 5225,
+      "input_pin": "A",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 1538,
+      "output_net": 1539,
+      "instance_id": 5010,
+      "input_pin": "D",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 1539,
+      "output_net": 1573,
+      "instance_id": 5013,
+      "input_pin": "B",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 1541,
+      "output_net": 1539,
+      "instance_id": 5010,
+      "input_pin": "C",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 1542,
+      "output_net": 1539,
+      "instance_id": 5010,
+      "input_pin": "B",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 1543,
+      "output_net": 1539,
+      "instance_id": 5010,
+      "input_pin": "A",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 1573,
+      "output_net": 2542,
+      "instance_id": 450,
+      "input_pin": "D",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 1797,
+      "output_net": 1542,
+      "instance_id": 2364,
+      "input_pin": "B",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 1805,
+      "output_net": 1542,
+      "instance_id": 2364,
+      "input_pin": "A_N",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 1968,
+      "output_net": 2520,
+      "instance_id": 406,
+      "input_pin": "B",
+      "output_pin": "Y"
+    },
+    {
+      "input_net": 1968,
+      "output_net": 2542,
+      "instance_id": 450,
+      "input_pin": "B",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 1996,
+      "output_net": 2008,
+      "instance_id": 2013,
+      "input_pin": "A",
+      "output_pin": "Y"
+    },
+    {
+      "input_net": 1998,
+      "output_net": 1543,
+      "instance_id": 1982,
+      "input_pin": "A",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 2008,
+      "output_net": 1543,
+      "instance_id": 1982,
+      "input_pin": "B",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 2069,
+      "output_net": 2129,
+      "instance_id": 2012,
+      "input_pin": "A",
+      "output_pin": "Y"
+    },
+    {
+      "input_net": 2101,
+      "output_net": 1538,
+      "instance_id": 1794,
+      "input_pin": "A",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 2129,
+      "output_net": 1538,
+      "instance_id": 1794,
+      "input_pin": "B",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 2155,
+      "output_net": 1541,
+      "instance_id": 2107,
+      "input_pin": "B",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 2157,
+      "output_net": 1541,
+      "instance_id": 2107,
+      "input_pin": "A_N",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 2226,
+      "output_net": 1504,
+      "instance_id": 1776,
+      "input_pin": "A",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 2241,
+      "output_net": 2261,
+      "instance_id": 1968,
+      "input_pin": "A",
+      "output_pin": "Y"
+    },
+    {
+      "input_net": 2261,
+      "output_net": 1504,
+      "instance_id": 1776,
+      "input_pin": "B",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 2273,
+      "output_net": 1510,
+      "instance_id": 1775,
+      "input_pin": "B",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 2276,
+      "output_net": 1510,
+      "instance_id": 1775,
+      "input_pin": "A_N",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 2329,
+      "output_net": 2520,
+      "instance_id": 406,
+      "input_pin": "A_N",
+      "output_pin": "Y"
+    },
+    {
+      "input_net": 2329,
+      "output_net": 2542,
+      "instance_id": 450,
+      "input_pin": "A_N",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 2346,
+      "output_net": 1507,
+      "instance_id": 1630,
+      "input_pin": "B",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 2347,
+      "output_net": 1507,
+      "instance_id": 1630,
+      "input_pin": "A_N",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 2380,
+      "output_net": 2543,
+      "instance_id": 233,
+      "input_pin": "B1",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 2442,
+      "output_net": 1509,
+      "instance_id": 1376,
+      "input_pin": "B",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 2443,
+      "output_net": 1509,
+      "instance_id": 1376,
+      "input_pin": "A_N",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 2487,
+      "output_net": 2543,
+      "instance_id": 233,
+      "input_pin": "A2",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 2490,
+      "output_net": 1502,
+      "instance_id": 1560,
+      "input_pin": "B",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 2493,
+      "output_net": 1505,
+      "instance_id": 1262,
+      "input_pin": "B",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 2511,
+      "output_net": 1502,
+      "instance_id": 1560,
+      "input_pin": "A",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 2512,
+      "output_net": 2490,
+      "instance_id": 1425,
+      "input_pin": "A",
+      "output_pin": "Y"
+    },
+    {
+      "input_net": 2520,
+      "output_net": 2543,
+      "instance_id": 233,
+      "input_pin": "B2",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 2532,
+      "output_net": 1505,
+      "instance_id": 1262,
+      "input_pin": "A_N",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 2542,
+      "output_net": 2543,
+      "instance_id": 233,
+      "input_pin": "A3",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 2579,
+      "output_net": 1501,
+      "instance_id": 1591,
+      "input_pin": "B",
+      "output_pin": "X"
+    },
+    {
+      "input_net": 2581,
+      "output_net": 1501,
+      "instance_id": 1591,
+      "input_pin": "A_N",
+      "output_pin": "X"
+    }
+  ],
+  "net_levels": {
+    "2543": 0,
+    "1361": 1,
+    "2487": 1,
+    "2542": 1,
+    "2380": 1,
+    "2520": 1,
+    "1360": 2,
+    "855": 2,
+    "367": 2,
+    "2329": 2,
+    "1968": 2,
+    "164": 2,
+    "1573": 2,
+    "828": 3,
+    "338": 3,
+    "342": 3,
+    "339": 3,
+    "340": 3,
+    "126": 3,
+    "165": 3,
+    "192": 3,
+    "1506": 3,
+    "1539": 3,
+    "1500": 3,
+    "415": 4,
+    "484": 4,
+    "480": 4,
+    "105": 4,
+    "127": 4,
+    "104": 4,
+    "102": 4,
+    "168": 4,
+    "195": 4,
+    "194": 4,
+    "193": 4,
+    "163": 4,
+    "160": 4,
+    "161": 4,
+    "1510": 4,
+    "1504": 4,
+    "1509": 4,
+    "1507": 4,
+    "1543": 4,
+    "1542": 4,
+    "1541": 4,
+    "1538": 4,
+    "1505": 4,
+    "1502": 4,
+    "1501": 4,
+    "603": 5,
+    "433": 5,
+    "534": 5,
+    "796": 5,
+    "942": 5,
+    "837": 5,
+    "938": 5,
+    "1129": 5,
+    "1110": 5,
+    "1031": 5,
+    "1012": 5,
+    "636": 5,
+    "635": 5,
+    "582": 5,
+    "492": 5,
+    "707": 5,
+    "717": 5,
+    "698": 5,
+    "699": 5,
+    "1187": 5,
+    "1193": 5,
+    "1164": 5,
+    "1163": 5,
+    "1325": 5,
+    "1379": 5,
+    "2276": 5,
+    "2273": 5,
+    "2226": 5,
+    "2261": 5,
+    "2443": 5,
+    "2442": 5,
+    "2347": 5,
+    "2346": 5,
+    "1998": 5,
+    "2008": 5,
+    "1805": 5,
+    "1797": 5,
+    "2157": 5,
+    "2155": 5,
+    "2101": 5,
+    "2129": 5,
+    "2532": 5,
+    "2493": 5,
+    "2511": 5,
+    "2490": 5,
+    "2581": 5,
+    "2579": 5,
+    "839": 6,
+    "658": 6,
+    "657": 6,
+    "1165": 6,
+    "2241": 6,
+    "1996": 6,
+    "2069": 6,
+    "2512": 6
+  },
+  "cell_levels": {
+    "233": 0,
+    "5532": 1,
+    "460": 1,
+    "450": 1,
+    "406": 1,
+    "5836": 2,
+    "6298": 2,
+    "6802": 2,
+    "5013": 2,
+    "5616": 3,
+    "6806": 3,
+    "6822": 3,
+    "6809": 3,
+    "5225": 3,
+    "5010": 3,
+    "5230": 3,
+    "5612": 4,
+    "8325": 4,
+    "8367": 4,
+    "2843": 4,
+    "8218": 4,
+    "8575": 4,
+    "8590": 4,
+    "8408": 4,
+    "8197": 4,
+    "2555": 4,
+    "2561": 4,
+    "2571": 4,
+    "1775": 4,
+    "1776": 4,
+    "1376": 4,
+    "1630": 4,
+    "1982": 4,
+    "2364": 4,
+    "2107": 4,
+    "1794": 4,
+    "1262": 4,
+    "1560": 4,
+    "1591": 4,
+    "8290": 5,
+    "8660": 5,
+    "8106": 5,
+    "2711": 5,
+    "1968": 5,
+    "2013": 5,
+    "2012": 5,
+    "1425": 5
+  },
+  "sequential_levels": {
+    "228": 1,
+    "5337": 2,
+    "226": 2,
+    "4182": 2,
+    "5638": 3,
+    "6109": 3,
+    "6106": 3,
+    "6198": 3,
+    "6197": 4,
+    "6199": 4,
+    "6111": 5,
+    "6095": 5,
+    "6159": 5,
+    "8214": 5,
+    "8090": 5,
+    "8085": 5,
+    "2709": 5,
+    "8091": 5,
+    "8219": 5,
+    "8086": 5,
+    "8591": 5,
+    "8815": 5,
+    "8084": 5,
+    "8095": 5,
+    "8429": 5,
+    "8431": 5,
+    "2542": 5,
+    "2299": 5,
+    "2710": 5,
+    "2574": 5,
+    "2301": 5,
+    "1228": 5,
+    "1808": 5,
+    "1229": 5,
+    "1258": 5,
+    "1626": 5,
+    "1230": 5,
+    "1810": 5,
+    "2039": 5,
+    "2293": 5,
+    "2372": 5,
+    "1264": 5,
+    "2036": 5,
+    "1249": 5,
+    "1259": 5,
+    "1383": 5,
+    "1384": 5,
+    "1260": 5,
+    "1385": 5,
+    "8199": 6,
+    "8602": 6,
+    "8092": 6,
+    "2708": 6,
+    "1809": 6,
+    "1250": 6,
+    "2037": 6,
+    "1261": 6
+  }
+}

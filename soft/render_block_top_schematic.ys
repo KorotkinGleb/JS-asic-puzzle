@@ -1,0 +1,33 @@
+# Render only the hierarchical recovered top.  Do not run `flatten`: each
+# recovered register module should remain a single box in the drawing.
+read_verilog soft/output/registers/recovered_shift_register.v
+read_verilog soft/output/registers/recovered_register_02.v
+read_verilog soft/output/registers/recovered_register_03.v
+read_verilog soft/output/registers/recovered_register_04.v
+read_verilog soft/output/registers/recovered_register_05.v
+read_verilog soft/output/registers/recovered_register_06.v
+read_verilog soft/output/registers/recovered_register_07.v
+read_verilog soft/output/registers/recovered_register_08.v
+read_verilog soft/output/registers/recovered_register_09.v
+read_verilog soft/output/registers/recovered_register_10.v
+read_verilog soft/output/registers/recovered_register_11.v
+read_verilog soft/output/registers/recovered_register_12.v
+read_verilog soft/output/registers/recovered_register_13.v
+read_verilog soft/output/registers/recovered_register_14.v
+read_verilog soft/output/registers/recovered_register_15.v
+read_verilog soft/output/registers/recovered_register_16.v
+read_verilog soft/output/registers/recovered_register_17.v
+read_verilog soft/output/recovered_output_logic.v
+read_verilog soft/output/recovered_block_top.v
+
+hierarchy -check -top recovered_block_top
+check
+
+# `show` writes a Graphviz .dot file and asks Graphviz to render the selected
+# module.  The two passes keep an editable SVG and a convenient PNG preview.
+show -viewer none -format svg -stretch -width -colors 1 \
+  -prefix soft/output/schematics/recovered_block_top \
+  recovered_block_top
+show -viewer none -format png -stretch -width -colors 1 \
+  -prefix soft/output/schematics/recovered_block_top \
+  recovered_block_top

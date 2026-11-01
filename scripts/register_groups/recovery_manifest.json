@@ -1,0 +1,3827 @@
+{
+  "gds": "puzzle.gds",
+  "register_group_report": "scripts/recovered_register_groups.json",
+  "direction": "backward from every destination FF.D",
+  "heuristic_bit_order_warning": "Only verified shift-register order is proven. Candidate group vectors use sorted instance IDs.",
+  "recovered_groups": [
+    {
+      "group_index": 1,
+      "kind": "verified shift register",
+      "confidence": 1.0,
+      "bit_order_note": "verified shift order",
+      "destination_flip_flops": [
+        5000,
+        5401,
+        5093,
+        5399,
+        5004,
+        5342,
+        4993,
+        5569,
+        5343,
+        5344,
+        5339,
+        5336
+      ],
+      "destination_d": {
+        "name": "shift_register_d",
+        "width": 12,
+        "bits": [
+          {
+            "bit": 0,
+            "instance_id": 5000,
+            "net": 1584,
+            "signal": "to_ff_5000_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 1,
+            "instance_id": 5401,
+            "net": 1544,
+            "signal": "to_ff_5401_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 2,
+            "instance_id": 5093,
+            "net": 1597,
+            "signal": "to_ff_5093_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 3,
+            "instance_id": 5399,
+            "net": 1464,
+            "signal": "to_ff_5399_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 4,
+            "instance_id": 5004,
+            "net": 1354,
+            "signal": "to_ff_5004_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 5,
+            "instance_id": 5342,
+            "net": 1279,
+            "signal": "to_ff_5342_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 6,
+            "instance_id": 4993,
+            "net": 1351,
+            "signal": "to_ff_4993_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 7,
+            "instance_id": 5569,
+            "net": 1214,
+            "signal": "to_ff_5569_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 8,
+            "instance_id": 5343,
+            "net": 1250,
+            "signal": "to_ff_5343_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 9,
+            "instance_id": 5344,
+            "net": 1315,
+            "signal": "to_ff_5344_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 10,
+            "instance_id": 5339,
+            "net": 1412,
+            "signal": "to_ff_5339_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 11,
+            "instance_id": 5336,
+            "net": 1514,
+            "signal": "to_ff_5336_d",
+            "source_kind": "combinational"
+          }
+        ],
+        "shared_sequential_destinations": {}
+      },
+      "source_flip_flops": [
+        4182,
+        4993,
+        5000,
+        5004,
+        5093,
+        5336,
+        5339,
+        5342,
+        5343,
+        5344,
+        5399,
+        5401,
+        5569
+      ],
+      "source_register_vectors": [
+        {
+          "name": "shift_register_q",
+          "width": 12,
+          "kind": "verified shift register",
+          "confidence": 1.0,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 5000,
+              "original_port": "ff_5000_q",
+              "net": 1577
+            },
+            {
+              "bit": 1,
+              "instance_id": 5401,
+              "original_port": "ff_5401_q",
+              "net": 1547
+            },
+            {
+              "bit": 2,
+              "instance_id": 5093,
+              "original_port": "ff_5093_q",
+              "net": 1596
+            },
+            {
+              "bit": 3,
+              "instance_id": 5399,
+              "original_port": "ff_5399_q",
+              "net": 1458
+            },
+            {
+              "bit": 4,
+              "instance_id": 5004,
+              "original_port": "ff_5004_q",
+              "net": 1402
+            },
+            {
+              "bit": 5,
+              "instance_id": 5342,
+              "original_port": "ff_5342_q",
+              "net": 1349
+            },
+            {
+              "bit": 6,
+              "instance_id": 4993,
+              "original_port": "ff_4993_q",
+              "net": 1309
+            },
+            {
+              "bit": 7,
+              "instance_id": 5569,
+              "original_port": "ff_5569_q",
+              "net": 1212
+            },
+            {
+              "bit": 8,
+              "instance_id": 5343,
+              "original_port": "ff_5343_q",
+              "net": 1248
+            },
+            {
+              "bit": 9,
+              "instance_id": 5344,
+              "original_port": "ff_5344_q",
+              "net": 1308
+            },
+            {
+              "bit": 10,
+              "instance_id": 5339,
+              "original_port": "ff_5339_q",
+              "net": 1358
+            },
+            {
+              "bit": 11,
+              "instance_id": 5336,
+              "original_port": "ff_5336_q",
+              "net": 1512
+            }
+          ]
+        }
+      ],
+      "boundary_input_nets": [
+        520,
+        1186,
+        1212,
+        1248,
+        1308,
+        1309,
+        1349,
+        1358,
+        1402,
+        1458,
+        1512,
+        1547,
+        1577,
+        1596,
+        1968
+      ],
+      "constant_nets": {},
+      "combinational_cell_count": 13,
+      "combinational_cell_ids": [
+        4722,
+        5007,
+        5008,
+        5011,
+        5205,
+        5263,
+        5265,
+        5340,
+        5347,
+        5400,
+        5403,
+        5433,
+        5537
+      ],
+      "output": "scripts/register_groups/recovered_register_group_01_input_logic_grouped.v",
+      "module": "recovered_register_group_01_input_logic_grouped"
+    },
+    {
+      "group_index": 2,
+      "kind": "state/counter register candidate",
+      "confidence": 0.95,
+      "bit_order_note": "heuristic index order follows sorted instance IDs",
+      "destination_flip_flops": [
+        234,
+        235,
+        236,
+        237
+      ],
+      "destination_d": {
+        "name": "register_group_02_d",
+        "width": 4,
+        "bits": [
+          {
+            "bit": 0,
+            "instance_id": 234,
+            "net": 2332,
+            "signal": "to_ff_234_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 1,
+            "instance_id": 235,
+            "net": 2388,
+            "signal": "to_ff_235_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 2,
+            "instance_id": 236,
+            "net": 2411,
+            "signal": "to_ff_236_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 3,
+            "instance_id": 237,
+            "net": 2317,
+            "signal": "to_ff_237_d",
+            "source_kind": "combinational"
+          }
+        ],
+        "shared_sequential_destinations": {}
+      },
+      "source_flip_flops": [
+        226,
+        234,
+        235,
+        236,
+        237
+      ],
+      "source_register_vectors": [
+        {
+          "name": "register_group_02_q",
+          "width": 4,
+          "kind": "state/counter register candidate",
+          "confidence": 0.95,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 234,
+              "original_port": "ff_234_q",
+              "net": 751
+            },
+            {
+              "bit": 1,
+              "instance_id": 235,
+              "original_port": "ff_235_q",
+              "net": 762
+            },
+            {
+              "bit": 2,
+              "instance_id": 236,
+              "original_port": "ff_236_q",
+              "net": 749
+            },
+            {
+              "bit": 3,
+              "instance_id": 237,
+              "original_port": "ff_237_q",
+              "net": 848
+            }
+          ]
+        },
+        {
+          "name": "register_group_09_q",
+          "width": 3,
+          "kind": "decoded state/register vector",
+          "confidence": 0.847,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 226,
+              "original_port": "ff_226_q",
+              "net": 2329
+            }
+          ]
+        }
+      ],
+      "boundary_input_nets": [
+        749,
+        751,
+        762,
+        848,
+        2329
+      ],
+      "constant_nets": {},
+      "combinational_cell_count": 9,
+      "combinational_cell_ids": [
+        199,
+        202,
+        215,
+        341,
+        353,
+        494,
+        500,
+        608,
+        624
+      ],
+      "output": "scripts/register_groups/recovered_register_group_02_input_logic_grouped.v",
+      "module": "recovered_register_group_02_input_logic_grouped"
+    },
+    {
+      "group_index": 3,
+      "kind": "state/counter register candidate",
+      "confidence": 0.95,
+      "bit_order_note": "heuristic index order follows sorted instance IDs",
+      "destination_flip_flops": [
+        4659,
+        4661,
+        4662,
+        4838
+      ],
+      "destination_d": {
+        "name": "register_group_03_d",
+        "width": 4,
+        "bits": [
+          {
+            "bit": 0,
+            "instance_id": 4659,
+            "net": 1307,
+            "signal": "to_ff_4659_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 1,
+            "instance_id": 4661,
+            "net": 1568,
+            "signal": "to_ff_4661_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 2,
+            "instance_id": 4662,
+            "net": 1448,
+            "signal": "to_ff_4662_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 3,
+            "instance_id": 4838,
+            "net": 1394,
+            "signal": "to_ff_4838_d",
+            "source_kind": "combinational"
+          }
+        ],
+        "shared_sequential_destinations": {}
+      },
+      "source_flip_flops": [
+        4182,
+        4659,
+        4661,
+        4662,
+        4838
+      ],
+      "source_register_vectors": [
+        {
+          "name": "register_group_03_q",
+          "width": 4,
+          "kind": "state/counter register candidate",
+          "confidence": 0.95,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 4659,
+              "original_port": "ff_4659_q",
+              "net": 1001
+            },
+            {
+              "bit": 1,
+              "instance_id": 4661,
+              "original_port": "ff_4661_q",
+              "net": 547
+            },
+            {
+              "bit": 2,
+              "instance_id": 4662,
+              "original_port": "ff_4662_q",
+              "net": 169
+            },
+            {
+              "bit": 3,
+              "instance_id": 4838,
+              "original_port": "ff_4838_q",
+              "net": 114
+            }
+          ]
+        }
+      ],
+      "boundary_input_nets": [
+        114,
+        169,
+        547,
+        1001,
+        1186,
+        1968
+      ],
+      "constant_nets": {},
+      "combinational_cell_count": 11,
+      "combinational_cell_ids": [
+        4660,
+        4663,
+        4705,
+        4710,
+        4722,
+        4835,
+        4837,
+        4859,
+        4862,
+        4863,
+        4949
+      ],
+      "output": "scripts/register_groups/recovered_register_group_03_input_logic_grouped.v",
+      "module": "recovered_register_group_03_input_logic_grouped"
+    },
+    {
+      "group_index": 4,
+      "kind": "state/counter register candidate",
+      "confidence": 0.95,
+      "bit_order_note": "heuristic index order follows sorted instance IDs",
+      "destination_flip_flops": [
+        6435,
+        6436,
+        6442,
+        6451
+      ],
+      "destination_d": {
+        "name": "register_group_04_d",
+        "width": 4,
+        "bits": [
+          {
+            "bit": 0,
+            "instance_id": 6435,
+            "net": 921,
+            "signal": "to_ff_6435_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 1,
+            "instance_id": 6436,
+            "net": 1059,
+            "signal": "to_ff_6436_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 2,
+            "instance_id": 6442,
+            "net": 827,
+            "signal": "to_ff_6442_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 3,
+            "instance_id": 6451,
+            "net": 972,
+            "signal": "to_ff_6451_d",
+            "source_kind": "combinational"
+          }
+        ],
+        "shared_sequential_destinations": {}
+      },
+      "source_flip_flops": [
+        4182,
+        4659,
+        4661,
+        4662,
+        4838,
+        6435,
+        6436,
+        6442,
+        6451
+      ],
+      "source_register_vectors": [
+        {
+          "name": "register_group_03_q",
+          "width": 4,
+          "kind": "state/counter register candidate",
+          "confidence": 0.95,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 4659,
+              "original_port": "ff_4659_q",
+              "net": 1001
+            },
+            {
+              "bit": 1,
+              "instance_id": 4661,
+              "original_port": "ff_4661_q",
+              "net": 547
+            },
+            {
+              "bit": 2,
+              "instance_id": 4662,
+              "original_port": "ff_4662_q",
+              "net": 169
+            },
+            {
+              "bit": 3,
+              "instance_id": 4838,
+              "original_port": "ff_4838_q",
+              "net": 114
+            }
+          ]
+        },
+        {
+          "name": "register_group_04_q",
+          "width": 4,
+          "kind": "state/counter register candidate",
+          "confidence": 0.95,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 6435,
+              "original_port": "ff_6435_q",
+              "net": 206
+            },
+            {
+              "bit": 1,
+              "instance_id": 6436,
+              "original_port": "ff_6436_q",
+              "net": 173
+            },
+            {
+              "bit": 2,
+              "instance_id": 6442,
+              "original_port": "ff_6442_q",
+              "net": 171
+            },
+            {
+              "bit": 3,
+              "instance_id": 6451,
+              "original_port": "ff_6451_q",
+              "net": 205
+            }
+          ]
+        }
+      ],
+      "boundary_input_nets": [
+        114,
+        169,
+        171,
+        173,
+        205,
+        206,
+        547,
+        1001,
+        1186,
+        1968
+      ],
+      "constant_nets": {},
+      "combinational_cell_count": 14,
+      "combinational_cell_ids": [
+        4705,
+        4722,
+        6403,
+        6404,
+        6437,
+        6441,
+        6444,
+        6445,
+        6446,
+        6472,
+        6473,
+        6474,
+        6478,
+        6481
+      ],
+      "output": "scripts/register_groups/recovered_register_group_04_input_logic_grouped.v",
+      "module": "recovered_register_group_04_input_logic_grouped"
+    },
+    {
+      "group_index": 5,
+      "kind": "state/counter register candidate",
+      "confidence": 0.95,
+      "bit_order_note": "heuristic index order follows sorted instance IDs",
+      "destination_flip_flops": [
+        2293,
+        2372
+      ],
+      "destination_d": {
+        "name": "register_group_05_d",
+        "width": 2,
+        "bits": [
+          {
+            "bit": 0,
+            "instance_id": 2293,
+            "net": 1800,
+            "signal": "to_ff_2293_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 1,
+            "instance_id": 2372,
+            "net": 1752,
+            "signal": "to_ff_2372_d",
+            "source_kind": "combinational"
+          }
+        ],
+        "shared_sequential_destinations": {}
+      },
+      "source_flip_flops": [
+        2293,
+        2372,
+        4182,
+        4659,
+        4661,
+        4662,
+        4838
+      ],
+      "source_register_vectors": [
+        {
+          "name": "register_group_03_q",
+          "width": 4,
+          "kind": "state/counter register candidate",
+          "confidence": 0.95,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 4659,
+              "original_port": "ff_4659_q",
+              "net": 1001
+            },
+            {
+              "bit": 1,
+              "instance_id": 4661,
+              "original_port": "ff_4661_q",
+              "net": 547
+            },
+            {
+              "bit": 2,
+              "instance_id": 4662,
+              "original_port": "ff_4662_q",
+              "net": 169
+            },
+            {
+              "bit": 3,
+              "instance_id": 4838,
+              "original_port": "ff_4838_q",
+              "net": 114
+            }
+          ]
+        },
+        {
+          "name": "register_group_05_q",
+          "width": 2,
+          "kind": "state/counter register candidate",
+          "confidence": 0.95,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 2293,
+              "original_port": "ff_2293_q",
+              "net": 1805
+            },
+            {
+              "bit": 1,
+              "instance_id": 2372,
+              "original_port": "ff_2372_q",
+              "net": 1797
+            }
+          ]
+        }
+      ],
+      "boundary_input_nets": [
+        114,
+        169,
+        520,
+        547,
+        1001,
+        1186,
+        1797,
+        1805,
+        1968
+      ],
+      "constant_nets": {},
+      "combinational_cell_count": 6,
+      "combinational_cell_ids": [
+        2361,
+        2363,
+        2365,
+        2369,
+        2437,
+        4722
+      ],
+      "output": "scripts/register_groups/recovered_register_group_05_input_logic_grouped.v",
+      "module": "recovered_register_group_05_input_logic_grouped"
+    },
+    {
+      "group_index": 6,
+      "kind": "state/counter register candidate",
+      "confidence": 0.933,
+      "bit_order_note": "heuristic index order follows sorted instance IDs",
+      "destination_flip_flops": [
+        5634,
+        5638,
+        5639
+      ],
+      "destination_d": {
+        "name": "register_group_06_d",
+        "width": 3,
+        "bits": [
+          {
+            "bit": 0,
+            "instance_id": 5634,
+            "net": 928,
+            "signal": "to_ff_5634_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 1,
+            "instance_id": 5638,
+            "net": 831,
+            "signal": "to_ff_5638_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 2,
+            "instance_id": 5639,
+            "net": 1007,
+            "signal": "to_ff_5639_d",
+            "source_kind": "combinational"
+          }
+        ],
+        "shared_sequential_destinations": {}
+      },
+      "source_flip_flops": [
+        4182,
+        4659,
+        4661,
+        4662,
+        4838,
+        5634,
+        5638,
+        5639
+      ],
+      "source_register_vectors": [
+        {
+          "name": "register_group_03_q",
+          "width": 4,
+          "kind": "state/counter register candidate",
+          "confidence": 0.95,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 4659,
+              "original_port": "ff_4659_q",
+              "net": 1001
+            },
+            {
+              "bit": 1,
+              "instance_id": 4661,
+              "original_port": "ff_4661_q",
+              "net": 547
+            },
+            {
+              "bit": 2,
+              "instance_id": 4662,
+              "original_port": "ff_4662_q",
+              "net": 169
+            },
+            {
+              "bit": 3,
+              "instance_id": 4838,
+              "original_port": "ff_4838_q",
+              "net": 114
+            }
+          ]
+        },
+        {
+          "name": "register_group_06_q",
+          "width": 3,
+          "kind": "state/counter register candidate",
+          "confidence": 0.933,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 5634,
+              "original_port": "ff_5634_q",
+              "net": 974
+            },
+            {
+              "bit": 1,
+              "instance_id": 5638,
+              "original_port": "ff_5638_q",
+              "net": 828
+            },
+            {
+              "bit": 2,
+              "instance_id": 5639,
+              "original_port": "ff_5639_q",
+              "net": 1006
+            }
+          ]
+        }
+      ],
+      "boundary_input_nets": [
+        114,
+        169,
+        520,
+        547,
+        828,
+        974,
+        1001,
+        1006,
+        1186,
+        1968
+      ],
+      "constant_nets": {},
+      "combinational_cell_count": 13,
+      "combinational_cell_ids": [
+        4705,
+        4722,
+        5630,
+        5636,
+        5640,
+        5677,
+        5682,
+        5683,
+        5684,
+        5711,
+        5775,
+        5778,
+        5781
+      ],
+      "output": "scripts/register_groups/recovered_register_group_06_input_logic_grouped.v",
+      "module": "recovered_register_group_06_input_logic_grouped"
+    },
+    {
+      "group_index": 7,
+      "kind": "state/counter register candidate",
+      "confidence": 0.918,
+      "bit_order_note": "heuristic index order follows sorted instance IDs",
+      "destination_flip_flops": [
+        6095,
+        6106,
+        6109,
+        6111,
+        6159,
+        6197,
+        6198,
+        6199
+      ],
+      "destination_d": {
+        "name": "register_group_07_d",
+        "width": 8,
+        "bits": [
+          {
+            "bit": 0,
+            "instance_id": 6095,
+            "net": 458,
+            "signal": "to_ff_6095_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 1,
+            "instance_id": 6106,
+            "net": 263,
+            "signal": "to_ff_6106_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 2,
+            "instance_id": 6109,
+            "net": 347,
+            "signal": "to_ff_6109_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 3,
+            "instance_id": 6111,
+            "net": 555,
+            "signal": "to_ff_6111_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 4,
+            "instance_id": 6159,
+            "net": 578,
+            "signal": "to_ff_6159_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 5,
+            "instance_id": 6197,
+            "net": 384,
+            "signal": "to_ff_6197_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 6,
+            "instance_id": 6198,
+            "net": 297,
+            "signal": "to_ff_6198_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 7,
+            "instance_id": 6199,
+            "net": 519,
+            "signal": "to_ff_6199_d",
+            "source_kind": "combinational"
+          }
+        ],
+        "shared_sequential_destinations": {}
+      },
+      "source_flip_flops": [
+        4182,
+        6095,
+        6106,
+        6109,
+        6111,
+        6159,
+        6197,
+        6198,
+        6199
+      ],
+      "source_register_vectors": [
+        {
+          "name": "register_group_07_q",
+          "width": 8,
+          "kind": "state/counter register candidate",
+          "confidence": 0.918,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 6095,
+              "original_port": "ff_6095_q",
+              "net": 433
+            },
+            {
+              "bit": 1,
+              "instance_id": 6106,
+              "original_port": "ff_6106_q",
+              "net": 342
+            },
+            {
+              "bit": 2,
+              "instance_id": 6109,
+              "original_port": "ff_6109_q",
+              "net": 338
+            },
+            {
+              "bit": 3,
+              "instance_id": 6111,
+              "original_port": "ff_6111_q",
+              "net": 603
+            },
+            {
+              "bit": 4,
+              "instance_id": 6159,
+              "original_port": "ff_6159_q",
+              "net": 534
+            },
+            {
+              "bit": 5,
+              "instance_id": 6197,
+              "original_port": "ff_6197_q",
+              "net": 415
+            },
+            {
+              "bit": 6,
+              "instance_id": 6198,
+              "original_port": "ff_6198_q",
+              "net": 339
+            },
+            {
+              "bit": 7,
+              "instance_id": 6199,
+              "original_port": "ff_6199_q",
+              "net": 484
+            }
+          ]
+        }
+      ],
+      "boundary_input_nets": [
+        338,
+        339,
+        342,
+        415,
+        433,
+        484,
+        520,
+        534,
+        603,
+        1186,
+        1968
+      ],
+      "constant_nets": {},
+      "combinational_cell_count": 22,
+      "combinational_cell_ids": [
+        4722,
+        5603,
+        5613,
+        5614,
+        5615,
+        5626,
+        5627,
+        5628,
+        5947,
+        6017,
+        6032,
+        6033,
+        6041,
+        6067,
+        6094,
+        6103,
+        6110,
+        6160,
+        6166,
+        6195,
+        6350,
+        6356
+      ],
+      "output": "scripts/register_groups/recovered_register_group_07_input_logic_grouped.v",
+      "module": "recovered_register_group_07_input_logic_grouped"
+    },
+    {
+      "group_index": 8,
+      "kind": "state/counter register candidate",
+      "confidence": 0.895,
+      "bit_order_note": "heuristic index order follows sorted instance IDs",
+      "destination_flip_flops": [
+        2299,
+        2301,
+        2542,
+        2574,
+        2708,
+        2710
+      ],
+      "destination_d": {
+        "name": "register_group_08_d",
+        "width": 6,
+        "bits": [
+          {
+            "bit": 0,
+            "instance_id": 2299,
+            "net": 1230,
+            "signal": "to_ff_2299_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 1,
+            "instance_id": 2301,
+            "net": 1368,
+            "signal": "to_ff_2301_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 2,
+            "instance_id": 2542,
+            "net": 1206,
+            "signal": "to_ff_2542_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 3,
+            "instance_id": 2574,
+            "net": 1420,
+            "signal": "to_ff_2574_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 4,
+            "instance_id": 2708,
+            "net": 1257,
+            "signal": "to_ff_2708_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 5,
+            "instance_id": 2710,
+            "net": 1166,
+            "signal": "to_ff_2710_d",
+            "source_kind": "combinational"
+          }
+        ],
+        "shared_sequential_destinations": {}
+      },
+      "source_flip_flops": [
+        2299,
+        2301,
+        2542,
+        2574,
+        2708,
+        2710,
+        4182,
+        4659,
+        4661,
+        4662,
+        4838,
+        6435,
+        6436,
+        6442,
+        6451
+      ],
+      "source_register_vectors": [
+        {
+          "name": "register_group_03_q",
+          "width": 4,
+          "kind": "state/counter register candidate",
+          "confidence": 0.95,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 4659,
+              "original_port": "ff_4659_q",
+              "net": 1001
+            },
+            {
+              "bit": 1,
+              "instance_id": 4661,
+              "original_port": "ff_4661_q",
+              "net": 547
+            },
+            {
+              "bit": 2,
+              "instance_id": 4662,
+              "original_port": "ff_4662_q",
+              "net": 169
+            },
+            {
+              "bit": 3,
+              "instance_id": 4838,
+              "original_port": "ff_4838_q",
+              "net": 114
+            }
+          ]
+        },
+        {
+          "name": "register_group_04_q",
+          "width": 4,
+          "kind": "state/counter register candidate",
+          "confidence": 0.95,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 6435,
+              "original_port": "ff_6435_q",
+              "net": 206
+            },
+            {
+              "bit": 1,
+              "instance_id": 6436,
+              "original_port": "ff_6436_q",
+              "net": 173
+            },
+            {
+              "bit": 2,
+              "instance_id": 6442,
+              "original_port": "ff_6442_q",
+              "net": 171
+            },
+            {
+              "bit": 3,
+              "instance_id": 6451,
+              "original_port": "ff_6451_q",
+              "net": 205
+            }
+          ]
+        },
+        {
+          "name": "register_group_08_q",
+          "width": 6,
+          "kind": "state/counter register candidate",
+          "confidence": 0.895,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 2299,
+              "original_port": "ff_2299_q",
+              "net": 1193
+            },
+            {
+              "bit": 1,
+              "instance_id": 2301,
+              "original_port": "ff_2301_q",
+              "net": 1379
+            },
+            {
+              "bit": 2,
+              "instance_id": 2542,
+              "original_port": "ff_2542_q",
+              "net": 1187
+            },
+            {
+              "bit": 3,
+              "instance_id": 2574,
+              "original_port": "ff_2574_q",
+              "net": 1325
+            },
+            {
+              "bit": 4,
+              "instance_id": 2708,
+              "original_port": "ff_2708_q",
+              "net": 1165
+            },
+            {
+              "bit": 5,
+              "instance_id": 2710,
+              "original_port": "ff_2710_q",
+              "net": 1164
+            }
+          ]
+        }
+      ],
+      "boundary_input_nets": [
+        114,
+        169,
+        171,
+        173,
+        205,
+        206,
+        520,
+        547,
+        1001,
+        1164,
+        1165,
+        1186,
+        1187,
+        1193,
+        1325,
+        1379,
+        1968
+      ],
+      "constant_nets": {},
+      "combinational_cell_count": 165,
+      "combinational_cell_ids": [
+        2296,
+        2298,
+        2302,
+        2540,
+        2543,
+        2544,
+        2548,
+        2552,
+        2553,
+        2563,
+        2572,
+        2622,
+        2671,
+        2706,
+        2711,
+        2740,
+        2782,
+        4722,
+        6872,
+        6921,
+        6936,
+        6945,
+        6946,
+        6947,
+        6948,
+        6949,
+        6950,
+        6952,
+        6953,
+        6954,
+        6955,
+        6956,
+        6957,
+        6960,
+        6962,
+        6963,
+        6964,
+        6968,
+        6977,
+        6978,
+        6979,
+        6980,
+        6981,
+        6982,
+        6983,
+        6984,
+        6987,
+        7374,
+        7375,
+        7376,
+        7379,
+        7380,
+        7381,
+        7382,
+        7383,
+        7400,
+        7404,
+        7414,
+        7415,
+        7416,
+        7417,
+        7435,
+        7454,
+        7465,
+        7546,
+        7548,
+        7560,
+        7563,
+        7564,
+        7565,
+        7566,
+        7567,
+        7656,
+        7660,
+        7764,
+        7766,
+        7767,
+        7768,
+        7769,
+        7816,
+        7819,
+        7820,
+        7823,
+        7824,
+        7825,
+        7832,
+        7852,
+        7854,
+        7914,
+        8011,
+        8044,
+        8995,
+        8996,
+        8997,
+        8998,
+        8999,
+        9000,
+        9001,
+        9002,
+        9003,
+        9004,
+        9005,
+        9006,
+        9007,
+        9008,
+        9009,
+        9010,
+        9012,
+        9013,
+        9043,
+        9044,
+        9045,
+        9046,
+        9047,
+        9049,
+        9062,
+        9063,
+        9115,
+        9127,
+        9198,
+        9245,
+        9265,
+        9336,
+        9337,
+        9338,
+        9340,
+        9341,
+        9342,
+        9343,
+        9344,
+        9345,
+        9346,
+        9347,
+        9348,
+        9351,
+        9353,
+        9354,
+        9355,
+        9356,
+        9357,
+        9358,
+        9360,
+        9470,
+        9540,
+        9597,
+        9598,
+        9602,
+        9605,
+        9607,
+        9608,
+        9611,
+        9612,
+        9614,
+        9615,
+        9622,
+        9636,
+        9637,
+        9705,
+        9714,
+        9730,
+        9760,
+        9763,
+        9790,
+        9810,
+        9818
+      ],
+      "output": "scripts/register_groups/recovered_register_group_08_input_logic_grouped.v",
+      "module": "recovered_register_group_08_input_logic_grouped"
+    },
+    {
+      "group_index": 9,
+      "kind": "decoded state/register vector",
+      "confidence": 0.847,
+      "bit_order_note": "heuristic index order follows sorted instance IDs",
+      "destination_flip_flops": [
+        226,
+        227,
+        228
+      ],
+      "destination_d": {
+        "name": "register_group_09_d",
+        "width": 3,
+        "bits": [
+          {
+            "bit": 0,
+            "instance_id": 226,
+            "net": 2564,
+            "signal": "to_ff_226_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 1,
+            "instance_id": 227,
+            "net": 2501,
+            "signal": "to_ff_227_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 2,
+            "instance_id": 228,
+            "net": 2543,
+            "signal": "to_ff_228_d",
+            "source_kind": "combinational"
+          }
+        ],
+        "shared_sequential_destinations": {}
+      },
+      "source_flip_flops": [
+        226,
+        227,
+        228,
+        1228,
+        1229,
+        1230,
+        1249,
+        1250,
+        1258,
+        1259,
+        1260,
+        1261,
+        1264,
+        1383,
+        1384,
+        1385,
+        1626,
+        1808,
+        1809,
+        1810,
+        2036,
+        2037,
+        2039,
+        2293,
+        2299,
+        2301,
+        2372,
+        2542,
+        2574,
+        2708,
+        2709,
+        2710,
+        4182,
+        5337,
+        5638,
+        6095,
+        6106,
+        6109,
+        6111,
+        6159,
+        6197,
+        6198,
+        6199,
+        8084,
+        8085,
+        8086,
+        8090,
+        8091,
+        8092,
+        8095,
+        8199,
+        8214,
+        8219,
+        8429,
+        8431,
+        8591,
+        8602,
+        8815
+      ],
+      "source_register_vectors": [
+        {
+          "name": "register_group_05_q",
+          "width": 2,
+          "kind": "state/counter register candidate",
+          "confidence": 0.95,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 2293,
+              "original_port": "ff_2293_q",
+              "net": 1805
+            },
+            {
+              "bit": 1,
+              "instance_id": 2372,
+              "original_port": "ff_2372_q",
+              "net": 1797
+            }
+          ]
+        },
+        {
+          "name": "register_group_06_q",
+          "width": 3,
+          "kind": "state/counter register candidate",
+          "confidence": 0.933,
+          "present_bits": [
+            {
+              "bit": 1,
+              "instance_id": 5638,
+              "original_port": "ff_5638_q",
+              "net": 828
+            }
+          ]
+        },
+        {
+          "name": "register_group_07_q",
+          "width": 8,
+          "kind": "state/counter register candidate",
+          "confidence": 0.918,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 6095,
+              "original_port": "ff_6095_q",
+              "net": 433
+            },
+            {
+              "bit": 1,
+              "instance_id": 6106,
+              "original_port": "ff_6106_q",
+              "net": 342
+            },
+            {
+              "bit": 2,
+              "instance_id": 6109,
+              "original_port": "ff_6109_q",
+              "net": 338
+            },
+            {
+              "bit": 3,
+              "instance_id": 6111,
+              "original_port": "ff_6111_q",
+              "net": 603
+            },
+            {
+              "bit": 4,
+              "instance_id": 6159,
+              "original_port": "ff_6159_q",
+              "net": 534
+            },
+            {
+              "bit": 5,
+              "instance_id": 6197,
+              "original_port": "ff_6197_q",
+              "net": 415
+            },
+            {
+              "bit": 6,
+              "instance_id": 6198,
+              "original_port": "ff_6198_q",
+              "net": 339
+            },
+            {
+              "bit": 7,
+              "instance_id": 6199,
+              "original_port": "ff_6199_q",
+              "net": 484
+            }
+          ]
+        },
+        {
+          "name": "register_group_08_q",
+          "width": 6,
+          "kind": "state/counter register candidate",
+          "confidence": 0.895,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 2299,
+              "original_port": "ff_2299_q",
+              "net": 1193
+            },
+            {
+              "bit": 1,
+              "instance_id": 2301,
+              "original_port": "ff_2301_q",
+              "net": 1379
+            },
+            {
+              "bit": 2,
+              "instance_id": 2542,
+              "original_port": "ff_2542_q",
+              "net": 1187
+            },
+            {
+              "bit": 3,
+              "instance_id": 2574,
+              "original_port": "ff_2574_q",
+              "net": 1325
+            },
+            {
+              "bit": 4,
+              "instance_id": 2708,
+              "original_port": "ff_2708_q",
+              "net": 1165
+            },
+            {
+              "bit": 5,
+              "instance_id": 2710,
+              "original_port": "ff_2710_q",
+              "net": 1164
+            }
+          ]
+        },
+        {
+          "name": "register_group_09_q",
+          "width": 3,
+          "kind": "decoded state/register vector",
+          "confidence": 0.847,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 226,
+              "original_port": "ff_226_q",
+              "net": 2329
+            },
+            {
+              "bit": 1,
+              "instance_id": 227,
+              "original_port": "ff_227_q",
+              "net": 2403
+            },
+            {
+              "bit": 2,
+              "instance_id": 228,
+              "original_port": "ff_228_q",
+              "net": 2380
+            }
+          ]
+        },
+        {
+          "name": "register_group_10_q",
+          "width": 8,
+          "kind": "state/counter register candidate",
+          "confidence": 0.844,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 2709,
+              "original_port": "ff_2709_q",
+              "net": 1129
+            },
+            {
+              "bit": 1,
+              "instance_id": 8085,
+              "original_port": "ff_8085_q",
+              "net": 837
+            },
+            {
+              "bit": 2,
+              "instance_id": 8086,
+              "original_port": "ff_8086_q",
+              "net": 1012
+            },
+            {
+              "bit": 3,
+              "instance_id": 8090,
+              "original_port": "ff_8090_q",
+              "net": 942
+            },
+            {
+              "bit": 4,
+              "instance_id": 8091,
+              "original_port": "ff_8091_q",
+              "net": 1110
+            },
+            {
+              "bit": 5,
+              "instance_id": 8199,
+              "original_port": "ff_8199_q",
+              "net": 839
+            },
+            {
+              "bit": 6,
+              "instance_id": 8214,
+              "original_port": "ff_8214_q",
+              "net": 796
+            },
+            {
+              "bit": 7,
+              "instance_id": 8219,
+              "original_port": "ff_8219_q",
+              "net": 1031
+            }
+          ]
+        },
+        {
+          "name": "register_group_11_q",
+          "width": 8,
+          "kind": "state/counter register candidate",
+          "confidence": 0.83,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 8084,
+              "original_port": "ff_8084_q",
+              "net": 492
+            },
+            {
+              "bit": 1,
+              "instance_id": 8092,
+              "original_port": "ff_8092_q",
+              "net": 657
+            },
+            {
+              "bit": 2,
+              "instance_id": 8095,
+              "original_port": "ff_8095_q",
+              "net": 707
+            },
+            {
+              "bit": 3,
+              "instance_id": 8429,
+              "original_port": "ff_8429_q",
+              "net": 717
+            },
+            {
+              "bit": 4,
+              "instance_id": 8431,
+              "original_port": "ff_8431_q",
+              "net": 698
+            },
+            {
+              "bit": 5,
+              "instance_id": 8591,
+              "original_port": "ff_8591_q",
+              "net": 636
+            },
+            {
+              "bit": 6,
+              "instance_id": 8602,
+              "original_port": "ff_8602_q",
+              "net": 658
+            },
+            {
+              "bit": 7,
+              "instance_id": 8815,
+              "original_port": "ff_8815_q",
+              "net": 582
+            }
+          ]
+        },
+        {
+          "name": "register_group_13_q",
+          "width": 6,
+          "kind": "state/counter register candidate",
+          "confidence": 0.797,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 1259,
+              "original_port": "ff_1259_q",
+              "net": 2532
+            },
+            {
+              "bit": 1,
+              "instance_id": 1260,
+              "original_port": "ff_1260_q",
+              "net": 2581
+            },
+            {
+              "bit": 2,
+              "instance_id": 1261,
+              "original_port": "ff_1261_q",
+              "net": 2512
+            },
+            {
+              "bit": 3,
+              "instance_id": 1383,
+              "original_port": "ff_1383_q",
+              "net": 2493
+            },
+            {
+              "bit": 4,
+              "instance_id": 1384,
+              "original_port": "ff_1384_q",
+              "net": 2511
+            },
+            {
+              "bit": 5,
+              "instance_id": 1385,
+              "original_port": "ff_1385_q",
+              "net": 2579
+            }
+          ]
+        },
+        {
+          "name": "register_group_14_q",
+          "width": 6,
+          "kind": "state/counter register candidate",
+          "confidence": 0.793,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 1228,
+              "original_port": "ff_1228_q",
+              "net": 2276
+            },
+            {
+              "bit": 1,
+              "instance_id": 1230,
+              "original_port": "ff_1230_q",
+              "net": 2347
+            },
+            {
+              "bit": 2,
+              "instance_id": 1258,
+              "original_port": "ff_1258_q",
+              "net": 2443
+            },
+            {
+              "bit": 3,
+              "instance_id": 1626,
+              "original_port": "ff_1626_q",
+              "net": 2442
+            },
+            {
+              "bit": 4,
+              "instance_id": 1808,
+              "original_port": "ff_1808_q",
+              "net": 2273
+            },
+            {
+              "bit": 5,
+              "instance_id": 1810,
+              "original_port": "ff_1810_q",
+              "net": 2346
+            }
+          ]
+        },
+        {
+          "name": "register_group_15_q",
+          "width": 8,
+          "kind": "state/counter register candidate",
+          "confidence": 0.756,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 1229,
+              "original_port": "ff_1229_q",
+              "net": 2226
+            },
+            {
+              "bit": 1,
+              "instance_id": 1249,
+              "original_port": "ff_1249_q",
+              "net": 2101
+            },
+            {
+              "bit": 2,
+              "instance_id": 1250,
+              "original_port": "ff_1250_q",
+              "net": 1996
+            },
+            {
+              "bit": 3,
+              "instance_id": 1264,
+              "original_port": "ff_1264_q",
+              "net": 2157
+            },
+            {
+              "bit": 4,
+              "instance_id": 1809,
+              "original_port": "ff_1809_q",
+              "net": 2241
+            },
+            {
+              "bit": 5,
+              "instance_id": 2036,
+              "original_port": "ff_2036_q",
+              "net": 2155
+            },
+            {
+              "bit": 6,
+              "instance_id": 2037,
+              "original_port": "ff_2037_q",
+              "net": 2069
+            },
+            {
+              "bit": 7,
+              "instance_id": 2039,
+              "original_port": "ff_2039_q",
+              "net": 1998
+            }
+          ]
+        }
+      ],
+      "boundary_input_nets": [
+        338,
+        339,
+        342,
+        415,
+        433,
+        484,
+        492,
+        534,
+        582,
+        603,
+        636,
+        657,
+        658,
+        698,
+        707,
+        717,
+        796,
+        828,
+        837,
+        839,
+        942,
+        1012,
+        1031,
+        1110,
+        1129,
+        1164,
+        1165,
+        1187,
+        1193,
+        1325,
+        1360,
+        1379,
+        1797,
+        1805,
+        1968,
+        1996,
+        1998,
+        2069,
+        2101,
+        2155,
+        2157,
+        2226,
+        2241,
+        2273,
+        2276,
+        2329,
+        2346,
+        2347,
+        2380,
+        2403,
+        2442,
+        2443,
+        2493,
+        2511,
+        2512,
+        2532,
+        2579,
+        2581
+      ],
+      "constant_nets": {},
+      "combinational_cell_count": 50,
+      "combinational_cell_ids": [
+        233,
+        247,
+        395,
+        399,
+        406,
+        450,
+        460,
+        1262,
+        1376,
+        1425,
+        1560,
+        1591,
+        1630,
+        1775,
+        1776,
+        1794,
+        1968,
+        1982,
+        2012,
+        2013,
+        2107,
+        2364,
+        2555,
+        2561,
+        2571,
+        2711,
+        2843,
+        5010,
+        5013,
+        5225,
+        5230,
+        5532,
+        5612,
+        5616,
+        5836,
+        6298,
+        6802,
+        6806,
+        6809,
+        6822,
+        8106,
+        8197,
+        8218,
+        8290,
+        8325,
+        8367,
+        8408,
+        8575,
+        8590,
+        8660
+      ],
+      "output": "scripts/register_groups/recovered_register_group_09_input_logic_grouped.v",
+      "module": "recovered_register_group_09_input_logic_grouped"
+    },
+    {
+      "group_index": 10,
+      "kind": "state/counter register candidate",
+      "confidence": 0.844,
+      "bit_order_note": "heuristic index order follows sorted instance IDs",
+      "destination_flip_flops": [
+        2709,
+        8085,
+        8086,
+        8090,
+        8091,
+        8199,
+        8214,
+        8219
+      ],
+      "destination_d": {
+        "name": "register_group_10_d",
+        "width": 8,
+        "bits": [
+          {
+            "bit": 0,
+            "instance_id": 2709,
+            "net": 1132,
+            "signal": "to_ff_2709_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 1,
+            "instance_id": 8085,
+            "net": 840,
+            "signal": "to_ff_8085_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 2,
+            "instance_id": 8086,
+            "net": 1039,
+            "signal": "to_ff_8086_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 3,
+            "instance_id": 8090,
+            "net": 892,
+            "signal": "to_ff_8090_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 4,
+            "instance_id": 8091,
+            "net": 1109,
+            "signal": "to_ff_8091_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 5,
+            "instance_id": 8199,
+            "net": 857,
+            "signal": "to_ff_8199_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 6,
+            "instance_id": 8214,
+            "net": 939,
+            "signal": "to_ff_8214_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 7,
+            "instance_id": 8219,
+            "net": 1015,
+            "signal": "to_ff_8219_d",
+            "source_kind": "combinational"
+          }
+        ],
+        "shared_sequential_destinations": {}
+      },
+      "source_flip_flops": [
+        2709,
+        4182,
+        4659,
+        4661,
+        4662,
+        4838,
+        6435,
+        6436,
+        6442,
+        6451,
+        8085,
+        8086,
+        8090,
+        8091,
+        8199,
+        8214,
+        8219
+      ],
+      "source_register_vectors": [
+        {
+          "name": "register_group_03_q",
+          "width": 4,
+          "kind": "state/counter register candidate",
+          "confidence": 0.95,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 4659,
+              "original_port": "ff_4659_q",
+              "net": 1001
+            },
+            {
+              "bit": 1,
+              "instance_id": 4661,
+              "original_port": "ff_4661_q",
+              "net": 547
+            },
+            {
+              "bit": 2,
+              "instance_id": 4662,
+              "original_port": "ff_4662_q",
+              "net": 169
+            },
+            {
+              "bit": 3,
+              "instance_id": 4838,
+              "original_port": "ff_4838_q",
+              "net": 114
+            }
+          ]
+        },
+        {
+          "name": "register_group_04_q",
+          "width": 4,
+          "kind": "state/counter register candidate",
+          "confidence": 0.95,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 6435,
+              "original_port": "ff_6435_q",
+              "net": 206
+            },
+            {
+              "bit": 1,
+              "instance_id": 6436,
+              "original_port": "ff_6436_q",
+              "net": 173
+            },
+            {
+              "bit": 2,
+              "instance_id": 6442,
+              "original_port": "ff_6442_q",
+              "net": 171
+            },
+            {
+              "bit": 3,
+              "instance_id": 6451,
+              "original_port": "ff_6451_q",
+              "net": 205
+            }
+          ]
+        },
+        {
+          "name": "register_group_10_q",
+          "width": 8,
+          "kind": "state/counter register candidate",
+          "confidence": 0.844,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 2709,
+              "original_port": "ff_2709_q",
+              "net": 1129
+            },
+            {
+              "bit": 1,
+              "instance_id": 8085,
+              "original_port": "ff_8085_q",
+              "net": 837
+            },
+            {
+              "bit": 2,
+              "instance_id": 8086,
+              "original_port": "ff_8086_q",
+              "net": 1012
+            },
+            {
+              "bit": 3,
+              "instance_id": 8090,
+              "original_port": "ff_8090_q",
+              "net": 942
+            },
+            {
+              "bit": 4,
+              "instance_id": 8091,
+              "original_port": "ff_8091_q",
+              "net": 1110
+            },
+            {
+              "bit": 5,
+              "instance_id": 8199,
+              "original_port": "ff_8199_q",
+              "net": 839
+            },
+            {
+              "bit": 6,
+              "instance_id": 8214,
+              "original_port": "ff_8214_q",
+              "net": 796
+            },
+            {
+              "bit": 7,
+              "instance_id": 8219,
+              "original_port": "ff_8219_q",
+              "net": 1031
+            }
+          ]
+        }
+      ],
+      "boundary_input_nets": [
+        114,
+        169,
+        171,
+        173,
+        205,
+        206,
+        520,
+        547,
+        796,
+        837,
+        839,
+        942,
+        1001,
+        1012,
+        1031,
+        1110,
+        1129,
+        1186,
+        1968
+      ],
+      "constant_nets": {},
+      "combinational_cell_count": 170,
+      "combinational_cell_ids": [
+        72,
+        75,
+        2707,
+        2717,
+        4722,
+        6872,
+        6921,
+        6936,
+        6945,
+        6946,
+        6947,
+        6948,
+        6949,
+        6950,
+        6952,
+        6953,
+        6954,
+        6955,
+        6956,
+        6957,
+        6960,
+        6962,
+        6963,
+        6964,
+        6968,
+        6977,
+        6978,
+        6979,
+        6980,
+        6981,
+        6982,
+        6983,
+        6984,
+        6987,
+        7374,
+        7375,
+        7376,
+        7379,
+        7380,
+        7381,
+        7382,
+        7383,
+        7400,
+        7404,
+        7414,
+        7415,
+        7416,
+        7417,
+        7435,
+        7454,
+        7465,
+        7546,
+        7548,
+        7560,
+        7563,
+        7564,
+        7565,
+        7566,
+        7567,
+        7656,
+        7660,
+        7764,
+        7766,
+        7767,
+        7768,
+        7769,
+        7816,
+        7819,
+        7820,
+        7823,
+        7824,
+        7825,
+        7832,
+        7852,
+        7854,
+        7914,
+        8011,
+        8044,
+        8190,
+        8191,
+        8192,
+        8196,
+        8200,
+        8202,
+        8211,
+        8212,
+        8213,
+        8215,
+        8275,
+        8290,
+        8321,
+        8427,
+        8428,
+        8437,
+        8461,
+        8490,
+        8995,
+        8996,
+        8997,
+        8998,
+        8999,
+        9000,
+        9001,
+        9002,
+        9003,
+        9004,
+        9005,
+        9006,
+        9007,
+        9008,
+        9009,
+        9010,
+        9012,
+        9013,
+        9043,
+        9044,
+        9045,
+        9046,
+        9047,
+        9049,
+        9062,
+        9063,
+        9115,
+        9127,
+        9198,
+        9245,
+        9265,
+        9336,
+        9337,
+        9338,
+        9340,
+        9341,
+        9342,
+        9343,
+        9344,
+        9345,
+        9346,
+        9347,
+        9348,
+        9351,
+        9353,
+        9354,
+        9355,
+        9356,
+        9357,
+        9358,
+        9360,
+        9470,
+        9540,
+        9597,
+        9598,
+        9602,
+        9605,
+        9607,
+        9608,
+        9611,
+        9612,
+        9614,
+        9615,
+        9622,
+        9636,
+        9637,
+        9705,
+        9714,
+        9730,
+        9760,
+        9763,
+        9790,
+        9810,
+        9818
+      ],
+      "output": "scripts/register_groups/recovered_register_group_10_input_logic_grouped.v",
+      "module": "recovered_register_group_10_input_logic_grouped"
+    },
+    {
+      "group_index": 11,
+      "kind": "state/counter register candidate",
+      "confidence": 0.83,
+      "bit_order_note": "heuristic index order follows sorted instance IDs",
+      "destination_flip_flops": [
+        8084,
+        8092,
+        8095,
+        8429,
+        8431,
+        8591,
+        8602,
+        8815
+      ],
+      "destination_d": {
+        "name": "register_group_11_d",
+        "width": 8,
+        "bits": [
+          {
+            "bit": 0,
+            "instance_id": 8084,
+            "net": 440,
+            "signal": "to_ff_8084_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 1,
+            "instance_id": 8092,
+            "net": 660,
+            "signal": "to_ff_8092_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 2,
+            "instance_id": 8095,
+            "net": 677,
+            "signal": "to_ff_8095_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 3,
+            "instance_id": 8429,
+            "net": 734,
+            "signal": "to_ff_8429_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 4,
+            "instance_id": 8431,
+            "net": 700,
+            "signal": "to_ff_8431_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 5,
+            "instance_id": 8591,
+            "net": 646,
+            "signal": "to_ff_8591_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 6,
+            "instance_id": 8602,
+            "net": 663,
+            "signal": "to_ff_8602_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 7,
+            "instance_id": 8815,
+            "net": 522,
+            "signal": "to_ff_8815_d",
+            "source_kind": "combinational"
+          }
+        ],
+        "shared_sequential_destinations": {}
+      },
+      "source_flip_flops": [
+        4182,
+        4659,
+        4661,
+        4662,
+        4838,
+        6435,
+        6436,
+        6442,
+        6451,
+        8084,
+        8092,
+        8095,
+        8429,
+        8431,
+        8591,
+        8602,
+        8815
+      ],
+      "source_register_vectors": [
+        {
+          "name": "register_group_03_q",
+          "width": 4,
+          "kind": "state/counter register candidate",
+          "confidence": 0.95,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 4659,
+              "original_port": "ff_4659_q",
+              "net": 1001
+            },
+            {
+              "bit": 1,
+              "instance_id": 4661,
+              "original_port": "ff_4661_q",
+              "net": 547
+            },
+            {
+              "bit": 2,
+              "instance_id": 4662,
+              "original_port": "ff_4662_q",
+              "net": 169
+            },
+            {
+              "bit": 3,
+              "instance_id": 4838,
+              "original_port": "ff_4838_q",
+              "net": 114
+            }
+          ]
+        },
+        {
+          "name": "register_group_04_q",
+          "width": 4,
+          "kind": "state/counter register candidate",
+          "confidence": 0.95,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 6435,
+              "original_port": "ff_6435_q",
+              "net": 206
+            },
+            {
+              "bit": 1,
+              "instance_id": 6436,
+              "original_port": "ff_6436_q",
+              "net": 173
+            },
+            {
+              "bit": 2,
+              "instance_id": 6442,
+              "original_port": "ff_6442_q",
+              "net": 171
+            },
+            {
+              "bit": 3,
+              "instance_id": 6451,
+              "original_port": "ff_6451_q",
+              "net": 205
+            }
+          ]
+        },
+        {
+          "name": "register_group_11_q",
+          "width": 8,
+          "kind": "state/counter register candidate",
+          "confidence": 0.83,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 8084,
+              "original_port": "ff_8084_q",
+              "net": 492
+            },
+            {
+              "bit": 1,
+              "instance_id": 8092,
+              "original_port": "ff_8092_q",
+              "net": 657
+            },
+            {
+              "bit": 2,
+              "instance_id": 8095,
+              "original_port": "ff_8095_q",
+              "net": 707
+            },
+            {
+              "bit": 3,
+              "instance_id": 8429,
+              "original_port": "ff_8429_q",
+              "net": 717
+            },
+            {
+              "bit": 4,
+              "instance_id": 8431,
+              "original_port": "ff_8431_q",
+              "net": 698
+            },
+            {
+              "bit": 5,
+              "instance_id": 8591,
+              "original_port": "ff_8591_q",
+              "net": 636
+            },
+            {
+              "bit": 6,
+              "instance_id": 8602,
+              "original_port": "ff_8602_q",
+              "net": 658
+            },
+            {
+              "bit": 7,
+              "instance_id": 8815,
+              "original_port": "ff_8815_q",
+              "net": 582
+            }
+          ]
+        }
+      ],
+      "boundary_input_nets": [
+        114,
+        169,
+        171,
+        173,
+        205,
+        206,
+        492,
+        520,
+        547,
+        582,
+        636,
+        657,
+        658,
+        698,
+        707,
+        717,
+        1001,
+        1186,
+        1968
+      ],
+      "constant_nets": {},
+      "combinational_cell_count": 172,
+      "combinational_cell_ids": [
+        4722,
+        6872,
+        6921,
+        6936,
+        6945,
+        6946,
+        6947,
+        6948,
+        6949,
+        6950,
+        6952,
+        6953,
+        6954,
+        6955,
+        6956,
+        6957,
+        6960,
+        6962,
+        6963,
+        6964,
+        6968,
+        6977,
+        6978,
+        6979,
+        6980,
+        6981,
+        6982,
+        6983,
+        6984,
+        6987,
+        7374,
+        7375,
+        7376,
+        7379,
+        7380,
+        7381,
+        7382,
+        7383,
+        7400,
+        7404,
+        7414,
+        7415,
+        7416,
+        7417,
+        7435,
+        7454,
+        7465,
+        7546,
+        7548,
+        7560,
+        7563,
+        7564,
+        7565,
+        7566,
+        7567,
+        7656,
+        7660,
+        7764,
+        7766,
+        7767,
+        7768,
+        7769,
+        7816,
+        7819,
+        7820,
+        7823,
+        7824,
+        7825,
+        7832,
+        7852,
+        7854,
+        7914,
+        8011,
+        8044,
+        8099,
+        8103,
+        8106,
+        8108,
+        8201,
+        8203,
+        8574,
+        8576,
+        8579,
+        8581,
+        8583,
+        8592,
+        8597,
+        8600,
+        8604,
+        8620,
+        8658,
+        8660,
+        8695,
+        8711,
+        8741,
+        8771,
+        8867,
+        8881,
+        8995,
+        8996,
+        8997,
+        8998,
+        8999,
+        9000,
+        9001,
+        9002,
+        9003,
+        9004,
+        9005,
+        9006,
+        9007,
+        9008,
+        9009,
+        9010,
+        9012,
+        9013,
+        9043,
+        9044,
+        9045,
+        9046,
+        9047,
+        9049,
+        9062,
+        9063,
+        9115,
+        9127,
+        9198,
+        9245,
+        9265,
+        9336,
+        9337,
+        9338,
+        9340,
+        9341,
+        9342,
+        9343,
+        9344,
+        9345,
+        9346,
+        9347,
+        9348,
+        9351,
+        9353,
+        9354,
+        9355,
+        9356,
+        9357,
+        9358,
+        9360,
+        9470,
+        9540,
+        9597,
+        9598,
+        9602,
+        9605,
+        9607,
+        9608,
+        9611,
+        9612,
+        9614,
+        9615,
+        9622,
+        9636,
+        9637,
+        9705,
+        9714,
+        9730,
+        9760,
+        9763,
+        9790,
+        9810,
+        9818
+      ],
+      "output": "scripts/register_groups/recovered_register_group_11_input_logic_grouped.v",
+      "module": "recovered_register_group_11_input_logic_grouped"
+    },
+    {
+      "group_index": 12,
+      "kind": "state/counter register candidate",
+      "confidence": 0.819,
+      "bit_order_note": "heuristic index order follows sorted instance IDs",
+      "destination_flip_flops": [
+        2944,
+        2946,
+        2947,
+        2948,
+        2957,
+        2958,
+        2959,
+        2960
+      ],
+      "destination_d": {
+        "name": "register_group_12_d",
+        "width": 8,
+        "bits": [
+          {
+            "bit": 0,
+            "instance_id": 2944,
+            "net": 1913,
+            "signal": "to_ff_2944_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 1,
+            "instance_id": 2946,
+            "net": 1927,
+            "signal": "to_ff_2946_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 2,
+            "instance_id": 2947,
+            "net": 1713,
+            "signal": "to_ff_2947_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 3,
+            "instance_id": 2948,
+            "net": 1767,
+            "signal": "to_ff_2948_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 4,
+            "instance_id": 2957,
+            "net": 1850,
+            "signal": "to_ff_2957_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 5,
+            "instance_id": 2958,
+            "net": 1851,
+            "signal": "to_ff_2958_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 6,
+            "instance_id": 2959,
+            "net": 1844,
+            "signal": "to_ff_2959_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 7,
+            "instance_id": 2960,
+            "net": 1730,
+            "signal": "to_ff_2960_d",
+            "source_kind": "combinational"
+          }
+        ],
+        "shared_sequential_destinations": {}
+      },
+      "source_flip_flops": [
+        226,
+        234,
+        235,
+        236,
+        237,
+        2944,
+        2946,
+        2947,
+        2948,
+        2957,
+        2958,
+        2959,
+        2960,
+        4182
+      ],
+      "source_register_vectors": [
+        {
+          "name": "register_group_02_q",
+          "width": 4,
+          "kind": "state/counter register candidate",
+          "confidence": 0.95,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 234,
+              "original_port": "ff_234_q",
+              "net": 751
+            },
+            {
+              "bit": 1,
+              "instance_id": 235,
+              "original_port": "ff_235_q",
+              "net": 762
+            },
+            {
+              "bit": 2,
+              "instance_id": 236,
+              "original_port": "ff_236_q",
+              "net": 749
+            },
+            {
+              "bit": 3,
+              "instance_id": 237,
+              "original_port": "ff_237_q",
+              "net": 848
+            }
+          ]
+        },
+        {
+          "name": "register_group_09_q",
+          "width": 3,
+          "kind": "decoded state/register vector",
+          "confidence": 0.847,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 226,
+              "original_port": "ff_226_q",
+              "net": 2329
+            }
+          ]
+        },
+        {
+          "name": "register_group_12_q",
+          "width": 8,
+          "kind": "state/counter register candidate",
+          "confidence": 0.819,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 2944,
+              "original_port": "ff_2944_q",
+              "net": 1950
+            },
+            {
+              "bit": 1,
+              "instance_id": 2946,
+              "original_port": "ff_2946_q",
+              "net": 1812
+            },
+            {
+              "bit": 2,
+              "instance_id": 2947,
+              "original_port": "ff_2947_q",
+              "net": 1715
+            },
+            {
+              "bit": 3,
+              "instance_id": 2948,
+              "original_port": "ff_2948_q",
+              "net": 1763
+            },
+            {
+              "bit": 4,
+              "instance_id": 2957,
+              "original_port": "ff_2957_q",
+              "net": 1806
+            },
+            {
+              "bit": 5,
+              "instance_id": 2958,
+              "original_port": "ff_2958_q",
+              "net": 1813
+            },
+            {
+              "bit": 6,
+              "instance_id": 2959,
+              "original_port": "ff_2959_q",
+              "net": 1675
+            },
+            {
+              "bit": 7,
+              "instance_id": 2960,
+              "original_port": "ff_2960_q",
+              "net": 1740
+            }
+          ]
+        }
+      ],
+      "boundary_input_nets": [
+        520,
+        749,
+        751,
+        762,
+        848,
+        1186,
+        1675,
+        1715,
+        1740,
+        1763,
+        1806,
+        1812,
+        1813,
+        1950,
+        1968,
+        2329
+      ],
+      "constant_nets": {},
+      "combinational_cell_count": 45,
+      "combinational_cell_ids": [
+        142,
+        171,
+        173,
+        198,
+        240,
+        353,
+        743,
+        882,
+        1166,
+        2949,
+        2954,
+        2956,
+        2963,
+        2965,
+        2966,
+        2967,
+        2969,
+        2972,
+        2973,
+        2974,
+        3012,
+        3014,
+        3017,
+        3164,
+        3167,
+        3191,
+        3277,
+        3278,
+        3281,
+        3282,
+        3283,
+        3284,
+        3285,
+        3289,
+        3295,
+        3296,
+        3477,
+        3483,
+        3487,
+        3489,
+        3516,
+        3518,
+        3587,
+        3821,
+        4722
+      ],
+      "output": "scripts/register_groups/recovered_register_group_12_input_logic_grouped.v",
+      "module": "recovered_register_group_12_input_logic_grouped"
+    },
+    {
+      "group_index": 13,
+      "kind": "state/counter register candidate",
+      "confidence": 0.797,
+      "bit_order_note": "heuristic index order follows sorted instance IDs",
+      "destination_flip_flops": [
+        1259,
+        1260,
+        1261,
+        1383,
+        1384,
+        1385
+      ],
+      "destination_d": {
+        "name": "register_group_13_d",
+        "width": 6,
+        "bits": [
+          {
+            "bit": 0,
+            "instance_id": 1259,
+            "net": 2531,
+            "signal": "to_ff_1259_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 1,
+            "instance_id": 1260,
+            "net": 2583,
+            "signal": "to_ff_1260_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 2,
+            "instance_id": 1261,
+            "net": 2557,
+            "signal": "to_ff_1261_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 3,
+            "instance_id": 1383,
+            "net": 2489,
+            "signal": "to_ff_1383_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 4,
+            "instance_id": 1384,
+            "net": 2510,
+            "signal": "to_ff_1384_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 5,
+            "instance_id": 1385,
+            "net": 2582,
+            "signal": "to_ff_1385_d",
+            "source_kind": "combinational"
+          }
+        ],
+        "shared_sequential_destinations": {}
+      },
+      "source_flip_flops": [
+        1259,
+        1260,
+        1261,
+        1383,
+        1384,
+        1385,
+        4182,
+        4659,
+        4661,
+        4662,
+        4838
+      ],
+      "source_register_vectors": [
+        {
+          "name": "register_group_03_q",
+          "width": 4,
+          "kind": "state/counter register candidate",
+          "confidence": 0.95,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 4659,
+              "original_port": "ff_4659_q",
+              "net": 1001
+            },
+            {
+              "bit": 1,
+              "instance_id": 4661,
+              "original_port": "ff_4661_q",
+              "net": 547
+            },
+            {
+              "bit": 2,
+              "instance_id": 4662,
+              "original_port": "ff_4662_q",
+              "net": 169
+            },
+            {
+              "bit": 3,
+              "instance_id": 4838,
+              "original_port": "ff_4838_q",
+              "net": 114
+            }
+          ]
+        },
+        {
+          "name": "register_group_13_q",
+          "width": 6,
+          "kind": "state/counter register candidate",
+          "confidence": 0.797,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 1259,
+              "original_port": "ff_1259_q",
+              "net": 2532
+            },
+            {
+              "bit": 1,
+              "instance_id": 1260,
+              "original_port": "ff_1260_q",
+              "net": 2581
+            },
+            {
+              "bit": 2,
+              "instance_id": 1261,
+              "original_port": "ff_1261_q",
+              "net": 2512
+            },
+            {
+              "bit": 3,
+              "instance_id": 1383,
+              "original_port": "ff_1383_q",
+              "net": 2493
+            },
+            {
+              "bit": 4,
+              "instance_id": 1384,
+              "original_port": "ff_1384_q",
+              "net": 2511
+            },
+            {
+              "bit": 5,
+              "instance_id": 1385,
+              "original_port": "ff_1385_q",
+              "net": 2579
+            }
+          ]
+        }
+      ],
+      "boundary_input_nets": [
+        114,
+        169,
+        520,
+        547,
+        1001,
+        1186,
+        1968,
+        2493,
+        2511,
+        2512,
+        2532,
+        2579,
+        2581
+      ],
+      "constant_nets": {},
+      "combinational_cell_count": 18,
+      "combinational_cell_ids": [
+        1286,
+        1287,
+        1323,
+        1362,
+        1363,
+        1364,
+        1365,
+        1366,
+        1367,
+        1370,
+        1377,
+        1387,
+        1425,
+        1451,
+        1569,
+        1570,
+        1579,
+        4722
+      ],
+      "output": "scripts/register_groups/recovered_register_group_13_input_logic_grouped.v",
+      "module": "recovered_register_group_13_input_logic_grouped"
+    },
+    {
+      "group_index": 14,
+      "kind": "state/counter register candidate",
+      "confidence": 0.793,
+      "bit_order_note": "heuristic index order follows sorted instance IDs",
+      "destination_flip_flops": [
+        1228,
+        1230,
+        1258,
+        1626,
+        1808,
+        1810
+      ],
+      "destination_d": {
+        "name": "register_group_14_d",
+        "width": 6,
+        "bits": [
+          {
+            "bit": 0,
+            "instance_id": 1228,
+            "net": 2307,
+            "signal": "to_ff_1228_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 1,
+            "instance_id": 1230,
+            "net": 2354,
+            "signal": "to_ff_1230_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 2,
+            "instance_id": 1258,
+            "net": 2438,
+            "signal": "to_ff_1258_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 3,
+            "instance_id": 1626,
+            "net": 2464,
+            "signal": "to_ff_1626_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 4,
+            "instance_id": 1808,
+            "net": 2274,
+            "signal": "to_ff_1808_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 5,
+            "instance_id": 1810,
+            "net": 2345,
+            "signal": "to_ff_1810_d",
+            "source_kind": "combinational"
+          }
+        ],
+        "shared_sequential_destinations": {}
+      },
+      "source_flip_flops": [
+        1228,
+        1230,
+        1258,
+        1626,
+        1808,
+        1810,
+        4182,
+        4659,
+        4661,
+        4662,
+        4838
+      ],
+      "source_register_vectors": [
+        {
+          "name": "register_group_03_q",
+          "width": 4,
+          "kind": "state/counter register candidate",
+          "confidence": 0.95,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 4659,
+              "original_port": "ff_4659_q",
+              "net": 1001
+            },
+            {
+              "bit": 1,
+              "instance_id": 4661,
+              "original_port": "ff_4661_q",
+              "net": 547
+            },
+            {
+              "bit": 2,
+              "instance_id": 4662,
+              "original_port": "ff_4662_q",
+              "net": 169
+            },
+            {
+              "bit": 3,
+              "instance_id": 4838,
+              "original_port": "ff_4838_q",
+              "net": 114
+            }
+          ]
+        },
+        {
+          "name": "register_group_14_q",
+          "width": 6,
+          "kind": "state/counter register candidate",
+          "confidence": 0.793,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 1228,
+              "original_port": "ff_1228_q",
+              "net": 2276
+            },
+            {
+              "bit": 1,
+              "instance_id": 1230,
+              "original_port": "ff_1230_q",
+              "net": 2347
+            },
+            {
+              "bit": 2,
+              "instance_id": 1258,
+              "original_port": "ff_1258_q",
+              "net": 2443
+            },
+            {
+              "bit": 3,
+              "instance_id": 1626,
+              "original_port": "ff_1626_q",
+              "net": 2442
+            },
+            {
+              "bit": 4,
+              "instance_id": 1808,
+              "original_port": "ff_1808_q",
+              "net": 2273
+            },
+            {
+              "bit": 5,
+              "instance_id": 1810,
+              "original_port": "ff_1810_q",
+              "net": 2346
+            }
+          ]
+        }
+      ],
+      "boundary_input_nets": [
+        114,
+        169,
+        520,
+        547,
+        1001,
+        1186,
+        1968,
+        2273,
+        2276,
+        2346,
+        2347,
+        2442,
+        2443
+      ],
+      "constant_nets": {},
+      "combinational_cell_count": 16,
+      "combinational_cell_ids": [
+        1232,
+        1234,
+        1235,
+        1240,
+        1246,
+        1248,
+        1381,
+        1611,
+        1635,
+        1641,
+        1675,
+        1772,
+        1790,
+        1807,
+        1959,
+        4722
+      ],
+      "output": "scripts/register_groups/recovered_register_group_14_input_logic_grouped.v",
+      "module": "recovered_register_group_14_input_logic_grouped"
+    },
+    {
+      "group_index": 15,
+      "kind": "state/counter register candidate",
+      "confidence": 0.756,
+      "bit_order_note": "heuristic index order follows sorted instance IDs",
+      "destination_flip_flops": [
+        1229,
+        1249,
+        1250,
+        1264,
+        1809,
+        2036,
+        2037,
+        2039
+      ],
+      "destination_d": {
+        "name": "register_group_15_d",
+        "width": 8,
+        "bits": [
+          {
+            "bit": 0,
+            "instance_id": 1229,
+            "net": 2240,
+            "signal": "to_ff_1229_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 1,
+            "instance_id": 1249,
+            "net": 2075,
+            "signal": "to_ff_1249_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 2,
+            "instance_id": 1250,
+            "net": 1997,
+            "signal": "to_ff_1250_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 3,
+            "instance_id": 1264,
+            "net": 2160,
+            "signal": "to_ff_1264_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 4,
+            "instance_id": 1809,
+            "net": 2243,
+            "signal": "to_ff_1809_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 5,
+            "instance_id": 2036,
+            "net": 2132,
+            "signal": "to_ff_2036_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 6,
+            "instance_id": 2037,
+            "net": 2097,
+            "signal": "to_ff_2037_d",
+            "source_kind": "combinational"
+          },
+          {
+            "bit": 7,
+            "instance_id": 2039,
+            "net": 2011,
+            "signal": "to_ff_2039_d",
+            "source_kind": "combinational"
+          }
+        ],
+        "shared_sequential_destinations": {}
+      },
+      "source_flip_flops": [
+        1229,
+        1249,
+        1250,
+        1264,
+        1809,
+        2036,
+        2037,
+        2039,
+        4182,
+        4659,
+        4661,
+        4662,
+        4838
+      ],
+      "source_register_vectors": [
+        {
+          "name": "register_group_03_q",
+          "width": 4,
+          "kind": "state/counter register candidate",
+          "confidence": 0.95,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 4659,
+              "original_port": "ff_4659_q",
+              "net": 1001
+            },
+            {
+              "bit": 1,
+              "instance_id": 4661,
+              "original_port": "ff_4661_q",
+              "net": 547
+            },
+            {
+              "bit": 2,
+              "instance_id": 4662,
+              "original_port": "ff_4662_q",
+              "net": 169
+            },
+            {
+              "bit": 3,
+              "instance_id": 4838,
+              "original_port": "ff_4838_q",
+              "net": 114
+            }
+          ]
+        },
+        {
+          "name": "register_group_15_q",
+          "width": 8,
+          "kind": "state/counter register candidate",
+          "confidence": 0.756,
+          "present_bits": [
+            {
+              "bit": 0,
+              "instance_id": 1229,
+              "original_port": "ff_1229_q",
+              "net": 2226
+            },
+            {
+              "bit": 1,
+              "instance_id": 1249,
+              "original_port": "ff_1249_q",
+              "net": 2101
+            },
+            {
+              "bit": 2,
+              "instance_id": 1250,
+              "original_port": "ff_1250_q",
+              "net": 1996
+            },
+            {
+              "bit": 3,
+              "instance_id": 1264,
+              "original_port": "ff_1264_q",
+              "net": 2157
+            },
+            {
+              "bit": 4,
+              "instance_id": 1809,
+              "original_port": "ff_1809_q",
+              "net": 2241
+            },
+            {
+              "bit": 5,
+              "instance_id": 2036,
+              "original_port": "ff_2036_q",
+              "net": 2155
+            },
+            {
+              "bit": 6,
+              "instance_id": 2037,
+              "original_port": "ff_2037_q",
+              "net": 2069
+            },
+            {
+              "bit": 7,
+              "instance_id": 2039,
+              "original_port": "ff_2039_q",
+              "net": 1998
+            }
+          ]
+        }
+      ],
+      "boundary_input_nets": [
+        114,
+        169,
+        520,
+        547,
+        1001,
+        1186,
+        1968,
+        1996,
+        1998,
+        2069,
+        2101,
+        2155,
+        2157,
+        2226,
+        2241
+      ],
+      "constant_nets": {},
+      "combinational_cell_count": 27,
+      "combinational_cell_ids": [
+        144,
+        145,
+        147,
+        1231,
+        1244,
+        1252,
+        1255,
+        1770,
+        1777,
+        1780,
+        1781,
+        1788,
+        1792,
+        1795,
+        1796,
+        1798,
+        1803,
+        1968,
+        2012,
+        2013,
+        2034,
+        2049,
+        2143,
+        2359,
+        2370,
+        2396,
+        4722
+      ],
+      "output": "scripts/register_groups/recovered_register_group_15_input_logic_grouped.v",
+      "module": "recovered_register_group_15_input_logic_grouped"
+    }
+  ],
+  "skipped_groups": []
+}
